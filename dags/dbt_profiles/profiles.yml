@@ -1,0 +1,15 @@
+spam_detection_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: EAB27764
+      user: Falcon
+      password: Jaihanuman@143
+      role: TRAINING_ROLE
+      warehouse: RABBIT_QUERY_WH
+      database: USER_DB_RABBIT
+      schema: PUBLIC
+      threads: 1
+      client_session_keep_alive: False
+      insecure_mode: true

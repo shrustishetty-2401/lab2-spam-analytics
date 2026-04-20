@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: stg_spam_emails
+    description: "Staged spam emails with derived features"
+    columns:
+      - name: EMAIL_ID
+        description: "Primary key"
+        tests:
+          - unique
+          - not_null
+      - name: LABEL
+        description: "ham or spam"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['ham', 'spam']
+      - name: IS_SPAM
+        description: "Binary spam flag"
+        tests:
+          - not_null

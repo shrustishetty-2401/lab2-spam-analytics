@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+  - name: public
+    database: USER_DB_RABBIT
+    schema: PUBLIC
+    tables:
+      - name: RAW_SPAM_EMAILS
+        description: "Raw spam email data loaded from CSV"
+        columns:
+          - name: EMAIL_ID
+            description: "Primary key"
+          - name: LABEL
+            description: "ham or spam"
+          - name: MESSAGE
+            description: "Email message text"
+          - name: LOADED_AT
+            description: "Timestamp when loaded"
