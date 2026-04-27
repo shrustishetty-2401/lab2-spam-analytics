@@ -1,0 +1,38 @@
+[2026-04-19T20:13:11.790+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_spam_pipeline.dbt_snapshot manual__2026-04-19T07:00:17.400138+00:00 [queued]>
+[2026-04-19T20:13:11.811+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_spam_pipeline.dbt_snapshot manual__2026-04-19T07:00:17.400138+00:00 [queued]>
+[2026-04-19T20:13:11.813+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2026-04-19T20:13:11.825+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): dbt_snapshot> on 2026-04-19 07:00:17.400138+00:00
+[2026-04-19T20:13:11.828+0000] {standard_task_runner.py:60} INFO - Started process 771 to run task
+[2026-04-19T20:13:11.831+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'dbt_spam_pipeline', 'dbt_snapshot', 'manual__2026-04-19T07:00:17.400138+00:00', '--job-id', '325', '--raw', '--subdir', 'DAGS_FOLDER/dbt_dag.py', '--cfg-path', '/tmp/tmpo63nrsle']
+[2026-04-19T20:13:11.833+0000] {standard_task_runner.py:88} INFO - Job 325: Subtask dbt_snapshot
+[2026-04-19T20:13:11.864+0000] {task_command.py:423} INFO - Running <TaskInstance: dbt_spam_pipeline.dbt_snapshot manual__2026-04-19T07:00:17.400138+00:00 [running]> on host 200fc1c16217
+[2026-04-19T20:13:11.907+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dbt_spam_pipeline' AIRFLOW_CTX_TASK_ID='dbt_snapshot' AIRFLOW_CTX_EXECUTION_DATE='2026-04-19T07:00:17.400138+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-19T07:00:17.400138+00:00'
+[2026-04-19T20:13:11.907+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-04-19T20:13:11.908+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '/usr/local/bin/dbt snapshot --project-dir /opt/***/dags/spam_detection_dbt --profiles-dir /opt/***/dags/dbt_profiles']
+[2026-04-19T20:13:11.914+0000] {subprocess.py:86} INFO - Output:
+[2026-04-19T20:13:13.769+0000] {subprocess.py:93} INFO - [0m20:13:13  Running with dbt=1.8.7
+[2026-04-19T20:13:14.547+0000] {subprocess.py:93} INFO - [0m20:13:14  Registered adapter: snowflake=1.8.4
+[2026-04-19T20:13:14.711+0000] {subprocess.py:93} INFO - [0m20:13:14  [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+[2026-04-19T20:13:14.711+0000] {subprocess.py:93} INFO - There are 1 unused configuration paths:
+[2026-04-19T20:13:14.711+0000] {subprocess.py:93} INFO - - models.spam_detection_dbt.example
+[2026-04-19T20:13:14.979+0000] {subprocess.py:93} INFO - [0m20:13:14  Found 2 models, 1 snapshot, 1 operation, 5 data tests, 1 source, 454 macros
+[2026-04-19T20:13:14.981+0000] {subprocess.py:93} INFO - [0m20:13:14
+[2026-04-19T20:13:16.402+0000] {subprocess.py:93} INFO - [0m20:13:16
+[2026-04-19T20:13:16.402+0000] {subprocess.py:93} INFO - [0m20:13:16  Running 1 on-run-start hook
+[2026-04-19T20:13:16.412+0000] {subprocess.py:93} INFO - [0m20:13:16  1 of 1 START hook: spam_detection_dbt.on-run-start.0 ........................... [RUN]
+[2026-04-19T20:13:16.809+0000] {subprocess.py:93} INFO - [0m20:13:16  1 of 1 OK hook: spam_detection_dbt.on-run-start.0 .............................. [[32mSUCCESS 1[0m in 0.40s]
+[2026-04-19T20:13:16.810+0000] {subprocess.py:93} INFO - [0m20:13:16
+[2026-04-19T20:13:16.986+0000] {subprocess.py:93} INFO - [0m20:13:16  Concurrency: 1 threads (target='dev')
+[2026-04-19T20:13:16.986+0000] {subprocess.py:93} INFO - [0m20:13:16
+[2026-04-19T20:13:16.993+0000] {subprocess.py:93} INFO - [0m20:13:16  1 of 1 START snapshot PUBLIC.spam_emails_snapshot .............................. [RUN]
+[2026-04-19T20:13:21.508+0000] {subprocess.py:93} INFO - [0m20:13:21  1 of 1 OK snapshotted PUBLIC.spam_emails_snapshot .............................. [[32mSUCCESS 0[0m in 4.51s]
+[2026-04-19T20:13:21.511+0000] {subprocess.py:93} INFO - [0m20:13:21
+[2026-04-19T20:13:21.511+0000] {subprocess.py:93} INFO - [0m20:13:21  Finished running 1 snapshot, 1 project hook in 0 hours 0 minutes and 6.53 seconds (6.53s).
+[2026-04-19T20:13:21.551+0000] {subprocess.py:93} INFO - [0m20:13:21
+[2026-04-19T20:13:21.554+0000] {subprocess.py:93} INFO - [0m20:13:21  [32mCompleted successfully[0m
+[2026-04-19T20:13:21.555+0000] {subprocess.py:93} INFO - [0m20:13:21
+[2026-04-19T20:13:21.557+0000] {subprocess.py:93} INFO - [0m20:13:21  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[2026-04-19T20:13:22.146+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-04-19T20:13:22.172+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=dbt_spam_pipeline, task_id=dbt_snapshot, execution_date=20260419T070017, start_date=20260419T201311, end_date=20260419T201322
+[2026-04-19T20:13:22.226+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-04-19T20:13:22.240+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

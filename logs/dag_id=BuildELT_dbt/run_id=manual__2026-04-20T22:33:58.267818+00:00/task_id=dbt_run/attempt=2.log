@@ -1,0 +1,24 @@
+[2026-04-20T22:36:06.849+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: BuildELT_dbt.dbt_run manual__2026-04-20T22:33:58.267818+00:00 [queued]>
+[2026-04-20T22:36:06.854+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: BuildELT_dbt.dbt_run manual__2026-04-20T22:33:58.267818+00:00 [queued]>
+[2026-04-20T22:36:06.854+0000] {taskinstance.py:2170} INFO - Starting attempt 2 of 2
+[2026-04-20T22:36:06.861+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): dbt_run> on 2026-04-20 22:33:58.267818+00:00
+[2026-04-20T22:36:06.864+0000] {standard_task_runner.py:60} INFO - Started process 191 to run task
+[2026-04-20T22:36:06.866+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'BuildELT_dbt', 'dbt_run', 'manual__2026-04-20T22:33:58.267818+00:00', '--job-id', '348', '--raw', '--subdir', 'DAGS_FOLDER/build_elt_with_dbt.py', '--cfg-path', '/tmp/tmp32fsj3pg']
+[2026-04-20T22:36:06.867+0000] {standard_task_runner.py:88} INFO - Job 348: Subtask dbt_run
+[2026-04-20T22:36:06.896+0000] {task_command.py:423} INFO - Running <TaskInstance: BuildELT_dbt.dbt_run manual__2026-04-20T22:33:58.267818+00:00 [running]> on host bfe7307c6ff2
+[2026-04-20T22:36:06.939+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='BuildELT_dbt' AIRFLOW_CTX_TASK_ID='dbt_run' AIRFLOW_CTX_EXECUTION_DATE='2026-04-20T22:33:58.267818+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-20T22:33:58.267818+00:00'
+[2026-04-20T22:36:06.940+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-04-20T22:36:06.940+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '/home/***/.local/bin/dbt run --profiles-dir /opt/***/dbt --project-dir /opt/***/dbt']
+[2026-04-20T22:36:06.945+0000] {subprocess.py:86} INFO - Output:
+[2026-04-20T22:36:08.880+0000] {subprocess.py:97} INFO - Command exited with return code 2
+[2026-04-20T22:36:08.887+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 212, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 2.
+[2026-04-20T22:36:08.889+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=BuildELT_dbt, task_id=dbt_run, execution_date=20260420T223358, start_date=20260420T223606, end_date=20260420T223608
+[2026-04-20T22:36:08.897+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 348 for task dbt_run (Bash command failed. The command returned a non-zero exit code 2.; 191)
+[2026-04-20T22:36:08.931+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-04-20T22:36:08.945+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,39 @@
+[2026-03-04T05:43:37.023+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: country_capital_pipeline.extract manual__2026-03-04T05:43:36.369147+00:00 [queued]>
+[2026-03-04T05:43:37.028+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: country_capital_pipeline.extract manual__2026-03-04T05:43:36.369147+00:00 [queued]>
+[2026-03-04T05:43:37.028+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2026-03-04T05:43:37.035+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): extract> on 2026-03-04 05:43:36.369147+00:00
+[2026-03-04T05:43:37.038+0000] {standard_task_runner.py:60} INFO - Started process 56 to run task
+[2026-03-04T05:43:37.040+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'country_capital_pipeline', 'extract', 'manual__2026-03-04T05:43:36.369147+00:00', '--job-id', '29', '--raw', '--subdir', 'DAGS_FOLDER/country_capital_etl.py', '--cfg-path', '/tmp/tmpvb82_o24']
+[2026-03-04T05:43:37.041+0000] {standard_task_runner.py:88} INFO - Job 29: Subtask extract
+[2026-03-04T05:43:37.069+0000] {task_command.py:423} INFO - Running <TaskInstance: country_capital_pipeline.extract manual__2026-03-04T05:43:36.369147+00:00 [running]> on host e2cac078df6c
+[2026-03-04T05:43:37.110+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='country_capital_pipeline' AIRFLOW_CTX_TASK_ID='extract' AIRFLOW_CTX_EXECUTION_DATE='2026-03-04T05:43:36.369147+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-04T05:43:36.369147+00:00'
+[2026-03-04T05:43:37.236+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/requests/models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/local/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/lib/python3.8/json/decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 1 column 4 (char 3)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/country_capital_etl.py", line 25, in extract
+    data = response.json()
+  File "/home/airflow/.local/lib/python3.8/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Extra data: line 1 column 4 (char 3)
+[2026-03-04T05:43:37.242+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=country_capital_pipeline, task_id=extract, execution_date=20260304T054336, start_date=20260304T054337, end_date=20260304T054337
+[2026-03-04T05:43:37.250+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 29 for task extract (Extra data: line 1 column 4 (char 3); 56)
+[2026-03-04T05:43:37.268+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-03-04T05:43:37.284+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

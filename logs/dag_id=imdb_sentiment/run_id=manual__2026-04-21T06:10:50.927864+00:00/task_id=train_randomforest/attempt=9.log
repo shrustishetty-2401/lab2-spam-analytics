@@ -1,0 +1,35 @@
+[2026-04-21T07:08:56.957+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: imdb_sentiment.train_randomforest manual__2026-04-21T06:10:50.927864+00:00 [queued]>
+[2026-04-21T07:08:57.074+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: imdb_sentiment.train_randomforest manual__2026-04-21T06:10:50.927864+00:00 [queued]>
+[2026-04-21T07:08:57.075+0000] {taskinstance.py:2170} INFO - Starting attempt 9 of 10
+[2026-04-21T07:08:57.087+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): train_randomforest> on 2026-04-21 06:10:50.927864+00:00
+[2026-04-21T07:08:57.091+0000] {standard_task_runner.py:60} INFO - Started process 1061 to run task
+[2026-04-21T07:08:57.095+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'imdb_sentiment', 'train_randomforest', 'manual__2026-04-21T06:10:50.927864+00:00', '--job-id', '67', '--raw', '--subdir', 'DAGS_FOLDER/imdb_sentiment.py', '--cfg-path', '/tmp/tmpoegkac8x']
+[2026-04-21T07:08:57.097+0000] {standard_task_runner.py:88} INFO - Job 67: Subtask train_randomforest
+[2026-04-21T07:08:57.126+0000] {task_command.py:423} INFO - Running <TaskInstance: imdb_sentiment.train_randomforest manual__2026-04-21T06:10:50.927864+00:00 [running]> on host 5b6c6d6fdb67
+[2026-04-21T07:08:57.173+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='ml-team' AIRFLOW_CTX_DAG_ID='imdb_sentiment' AIRFLOW_CTX_TASK_ID='train_randomforest' AIRFLOW_CTX_EXECUTION_DATE='2026-04-21T06:10:50.927864+00:00' AIRFLOW_CTX_TRY_NUMBER='9' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-21T06:10:50.927864+00:00'
+[2026-04-21T07:08:57.226+0000] {logging_mixin.py:188} WARNING - 2026/04/21 07:08:57 WARNING mlflow.utils.git_utils: Failed to import Git (the Git executable is probably not on your PATH), so Git SHA is not available. Error: Failed to initialize: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh(<full-path-to-git-executable>)
+
+All git commands will error until this is rectified.
+
+This initial message can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|silent|none|n|0: for no message or exception
+    - warn|w|warning|log|l|1: for a warning message (logging level CRITICAL, displayed by default)
+    - error|e|exception|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+[2026-04-21T07:08:58.928+0000] {logging_mixin.py:188} WARNING - Registered model 'imdb-sentiment_Shetty' already exists. Creating a new version of this model...
+[2026-04-21T07:08:58.948+0000] {logging_mixin.py:188} WARNING - 2026/04/21 07:08:58 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: imdb-sentiment_Shetty, version 9
+[2026-04-21T07:08:58.948+0000] {logging_mixin.py:188} WARNING - Created version '9' of model 'imdb-sentiment_Shetty'.
+[2026-04-21T07:08:58.948+0000] {imdb_sentiment.py:123} INFO - tfidf-randomforest | acc=0.3333 | f1=0.5000
+[2026-04-21T07:08:58.956+0000] {logging_mixin.py:188} WARNING - 2026/04/21 07:08:58 INFO mlflow.tracking._tracking_service.client: 🏃 View run tfidf-randomforest at: http://mlflow:5001/#/experiments/1/runs/1c2257595e17417b93e23f2fb70142de.
+[2026-04-21T07:08:58.957+0000] {logging_mixin.py:188} WARNING - 2026/04/21 07:08:58 INFO mlflow.tracking._tracking_service.client: 🧪 View experiment at: http://mlflow:5001/#/experiments/1.
+[2026-04-21T07:08:58.964+0000] {python.py:201} INFO - Done. Returned value was: {'run_id': '1c2257595e17417b93e23f2fb70142de', 'run_name': 'tfidf-randomforest', 'accuracy': 0.3333333333333333, 'f1_score': 0.5}
+[2026-04-21T07:08:58.999+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=imdb_sentiment, task_id=train_randomforest, execution_date=20260421T061050, start_date=20260421T070856, end_date=20260421T070858
+[2026-04-21T07:08:59.052+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-04-21T07:08:59.068+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,1280 @@
+[2026-04-25T05:21:02.164+0000] {processor.py:161} INFO - Started process (PID=41) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:21:02.165+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T05:21:02.167+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:21:02.166+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:21:02.185+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:21:02.184+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T05:21:02.185+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:21:02.194+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.035 seconds
+[2026-04-25T05:21:32.802+0000] {processor.py:161} INFO - Started process (PID=48) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:21:32.803+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T05:21:32.805+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:21:32.804+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:21:32.826+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:21:32.824+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T05:21:32.826+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:21:32.835+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.035 seconds
+[2026-04-25T05:22:03.433+0000] {processor.py:161} INFO - Started process (PID=55) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:22:03.434+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T05:22:03.435+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:22:03.435+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:22:03.456+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:22:03.455+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T05:22:03.457+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:22:03.466+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.035 seconds
+[2026-04-25T05:22:34.018+0000] {processor.py:161} INFO - Started process (PID=62) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:22:34.019+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T05:22:34.020+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:22:34.020+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:22:34.037+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:22:34.036+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T05:22:34.037+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:22:34.045+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.030 seconds
+[2026-04-25T05:23:04.609+0000] {processor.py:161} INFO - Started process (PID=69) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:23:04.610+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T05:23:04.612+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:23:04.611+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:23:04.632+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:23:04.631+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T05:23:04.632+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:23:04.639+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.032 seconds
+[2026-04-25T05:23:35.172+0000] {processor.py:161} INFO - Started process (PID=76) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:23:35.172+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T05:23:35.174+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:23:35.174+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:23:35.193+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:23:35.189+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T05:23:35.193+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:23:35.203+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.033 seconds
+[2026-04-25T05:24:05.756+0000] {processor.py:161} INFO - Started process (PID=83) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:24:05.759+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T05:24:05.760+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:24:05.760+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:24:05.777+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:24:05.776+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T05:24:05.777+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:24:05.786+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.032 seconds
+[2026-04-25T05:24:36.387+0000] {processor.py:161} INFO - Started process (PID=90) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:24:36.388+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T05:24:36.390+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:24:36.389+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:24:36.407+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:24:36.406+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T05:24:36.407+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:24:36.415+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.030 seconds
+[2026-04-25T05:25:06.926+0000] {processor.py:161} INFO - Started process (PID=97) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:25:06.927+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T05:25:06.929+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:25:06.928+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:25:06.949+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:25:06.948+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T05:25:06.950+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:25:06.958+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.034 seconds
+[2026-04-25T05:25:37.630+0000] {processor.py:161} INFO - Started process (PID=104) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:25:37.631+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T05:25:37.633+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:25:37.633+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:25:37.653+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:25:37.651+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T05:25:37.654+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:25:37.661+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.033 seconds
+[2026-04-25T05:26:08.301+0000] {processor.py:161} INFO - Started process (PID=111) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:26:08.302+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T05:26:08.304+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:26:08.303+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:26:08.324+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:26:08.321+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T05:26:08.325+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:26:08.335+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.036 seconds
+[2026-04-25T05:26:38.834+0000] {processor.py:161} INFO - Started process (PID=118) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:26:38.835+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T05:26:38.836+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:26:38.836+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:26:38.858+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:26:38.857+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T05:26:38.859+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:26:38.866+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.035 seconds
+[2026-04-25T05:27:09.383+0000] {processor.py:161} INFO - Started process (PID=125) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:27:09.384+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T05:27:09.386+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:27:09.386+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:27:09.408+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:27:09.406+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T05:27:09.408+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:27:09.417+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.037 seconds
+[2026-04-25T05:27:39.909+0000] {processor.py:161} INFO - Started process (PID=132) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:27:39.910+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T05:27:39.913+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:27:39.912+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:27:39.928+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:27:39.926+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T05:27:39.928+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:27:39.935+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.028 seconds
+[2026-04-25T05:28:10.555+0000] {processor.py:161} INFO - Started process (PID=139) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:28:10.556+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T05:28:10.558+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:28:10.558+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:28:10.581+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:28:10.580+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T05:28:10.582+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:28:10.590+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.038 seconds
+[2026-04-25T05:28:41.172+0000] {processor.py:161} INFO - Started process (PID=146) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:28:41.173+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T05:28:41.175+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:28:41.175+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:28:41.192+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:28:41.191+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T05:28:41.192+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:28:41.201+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.031 seconds
+[2026-04-25T05:29:11.797+0000] {processor.py:161} INFO - Started process (PID=153) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:29:11.798+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T05:29:11.800+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:29:11.800+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:29:11.823+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:29:11.821+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T05:29:11.824+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:29:11.832+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.037 seconds
+[2026-04-25T05:29:42.408+0000] {processor.py:161} INFO - Started process (PID=160) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:29:42.409+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T05:29:42.411+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:29:42.411+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:29:42.430+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:29:42.429+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T05:29:42.430+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:29:42.437+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.031 seconds
+[2026-04-25T05:30:12.939+0000] {processor.py:161} INFO - Started process (PID=167) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:30:12.940+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T05:30:12.942+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:30:12.942+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:30:12.964+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:30:12.963+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T05:30:12.964+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:30:12.971+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.035 seconds
+[2026-04-25T05:30:43.521+0000] {processor.py:161} INFO - Started process (PID=174) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:30:43.522+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T05:30:43.523+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:30:43.523+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:30:43.544+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:30:43.543+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T05:30:43.547+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:30:43.558+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.040 seconds
+[2026-04-25T05:31:14.170+0000] {processor.py:161} INFO - Started process (PID=181) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:31:14.170+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T05:31:14.172+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:31:14.172+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:31:14.193+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:31:14.192+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T05:31:14.193+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:31:14.201+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.034 seconds
+[2026-04-25T05:31:44.769+0000] {processor.py:161} INFO - Started process (PID=188) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:31:44.770+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T05:31:44.772+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:31:44.771+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:31:44.793+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:31:44.791+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T05:31:44.793+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:31:44.802+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.035 seconds
+[2026-04-25T05:32:15.387+0000] {processor.py:161} INFO - Started process (PID=195) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:32:15.388+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T05:32:15.390+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:32:15.389+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:32:15.407+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:32:15.406+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T05:32:15.409+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:32:15.417+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.032 seconds
+[2026-04-25T05:32:45.959+0000] {processor.py:161} INFO - Started process (PID=202) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:32:45.960+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T05:32:45.963+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:32:45.962+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:32:45.981+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:32:45.980+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T05:32:45.981+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:32:45.990+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.033 seconds
+[2026-04-25T05:33:16.570+0000] {processor.py:161} INFO - Started process (PID=209) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:33:16.571+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T05:33:16.572+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:33:16.572+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:33:16.591+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:33:16.589+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T05:33:16.591+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:33:16.598+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.030 seconds
+[2026-04-25T05:33:47.196+0000] {processor.py:161} INFO - Started process (PID=216) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:33:47.197+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T05:33:47.198+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:33:47.198+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:33:47.217+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:33:47.216+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T05:33:47.217+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:33:47.227+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.033 seconds
+[2026-04-25T05:34:17.811+0000] {processor.py:161} INFO - Started process (PID=223) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:34:17.812+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T05:34:17.813+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:34:17.813+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:34:17.838+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:34:17.835+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T05:34:17.839+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:34:17.848+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.039 seconds
+[2026-04-25T05:34:48.324+0000] {processor.py:161} INFO - Started process (PID=230) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:34:48.325+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T05:34:48.327+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:34:48.327+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:34:48.348+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:34:48.346+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T05:34:48.348+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:34:48.358+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.037 seconds
+[2026-04-25T05:35:18.965+0000] {processor.py:161} INFO - Started process (PID=237) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:35:18.966+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T05:35:18.968+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:35:18.968+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:35:18.984+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:35:18.983+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T05:35:18.985+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:35:18.992+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.029 seconds
+[2026-04-25T05:35:49.571+0000] {processor.py:161} INFO - Started process (PID=244) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:35:49.572+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T05:35:49.574+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:35:49.573+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:35:49.590+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:35:49.589+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T05:35:49.590+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:35:49.598+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.029 seconds
+[2026-04-25T05:36:20.197+0000] {processor.py:161} INFO - Started process (PID=251) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:36:20.198+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T05:36:20.200+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:36:20.200+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:36:20.220+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:36:20.219+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T05:36:20.221+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:36:20.229+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.034 seconds
+[2026-04-25T05:36:50.794+0000] {processor.py:161} INFO - Started process (PID=258) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:36:50.795+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T05:36:50.796+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:36:50.796+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:36:50.816+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:36:50.815+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T05:36:50.816+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:36:50.825+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.034 seconds
+[2026-04-25T05:37:21.418+0000] {processor.py:161} INFO - Started process (PID=265) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:37:21.419+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T05:37:21.421+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:37:21.421+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:37:21.442+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:37:21.441+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T05:37:21.442+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:37:21.449+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.033 seconds
+[2026-04-25T05:37:52.040+0000] {processor.py:161} INFO - Started process (PID=272) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:37:52.041+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T05:37:52.043+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:37:52.042+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:37:52.060+0000] {logging_mixin.py:188} INFO - [2026-04-25T05:37:52.060+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T05:37:52.061+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T05:37:52.067+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.029 seconds
+[2026-04-25T06:12:18.783+0000] {processor.py:161} INFO - Started process (PID=279) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T06:12:18.785+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T06:12:18.786+0000] {logging_mixin.py:188} INFO - [2026-04-25T06:12:18.786+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T06:12:18.807+0000] {logging_mixin.py:188} INFO - [2026-04-25T06:12:18.806+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T06:12:18.808+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T06:12:18.816+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.035 seconds
+[2026-04-25T06:15:35.773+0000] {processor.py:161} INFO - Started process (PID=286) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T06:15:35.775+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T06:15:35.777+0000] {logging_mixin.py:188} INFO - [2026-04-25T06:15:35.777+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T06:15:35.806+0000] {logging_mixin.py:188} INFO - [2026-04-25T06:15:35.803+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T06:15:35.807+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T06:15:35.818+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.050 seconds
+[2026-04-25T06:16:48.471+0000] {processor.py:161} INFO - Started process (PID=293) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T06:16:48.472+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T06:16:48.475+0000] {logging_mixin.py:188} INFO - [2026-04-25T06:16:48.475+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T06:16:48.494+0000] {logging_mixin.py:188} INFO - [2026-04-25T06:16:48.493+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T06:16:48.497+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T06:16:48.503+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.034 seconds
+[2026-04-25T06:43:49.593+0000] {processor.py:161} INFO - Started process (PID=300) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T06:43:49.594+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T06:43:49.598+0000] {logging_mixin.py:188} INFO - [2026-04-25T06:43:49.598+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T06:43:49.615+0000] {logging_mixin.py:188} INFO - [2026-04-25T06:43:49.614+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T06:43:49.615+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T06:43:49.621+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.030 seconds
+[2026-04-25T06:44:20.462+0000] {processor.py:161} INFO - Started process (PID=307) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T06:44:20.463+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T06:44:20.465+0000] {logging_mixin.py:188} INFO - [2026-04-25T06:44:20.465+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T06:44:20.486+0000] {logging_mixin.py:188} INFO - [2026-04-25T06:44:20.485+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T06:44:20.486+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T06:44:20.493+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.033 seconds
+[2026-04-25T07:25:29.232+0000] {processor.py:161} INFO - Started process (PID=314) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T07:25:29.234+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T07:25:29.236+0000] {logging_mixin.py:188} INFO - [2026-04-25T07:25:29.236+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T07:25:29.267+0000] {logging_mixin.py:188} INFO - [2026-04-25T07:25:29.265+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T07:25:29.267+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T07:25:29.281+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.054 seconds
+[2026-04-25T07:38:41.280+0000] {processor.py:161} INFO - Started process (PID=321) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T07:38:41.281+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T07:38:41.286+0000] {logging_mixin.py:188} INFO - [2026-04-25T07:38:41.285+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T07:38:41.315+0000] {logging_mixin.py:188} INFO - [2026-04-25T07:38:41.313+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T07:38:41.315+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T07:38:41.330+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.054 seconds
+[2026-04-25T08:03:28.892+0000] {processor.py:161} INFO - Started process (PID=328) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T08:03:28.893+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T08:03:28.895+0000] {logging_mixin.py:188} INFO - [2026-04-25T08:03:28.895+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T08:03:28.913+0000] {logging_mixin.py:188} INFO - [2026-04-25T08:03:28.912+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T08:03:28.914+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T08:03:28.922+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.032 seconds
+[2026-04-25T08:03:59.471+0000] {processor.py:161} INFO - Started process (PID=335) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T08:03:59.472+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T08:03:59.474+0000] {logging_mixin.py:188} INFO - [2026-04-25T08:03:59.474+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T08:03:59.495+0000] {logging_mixin.py:188} INFO - [2026-04-25T08:03:59.493+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T08:03:59.496+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T08:03:59.502+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.033 seconds
+[2026-04-25T08:52:39.348+0000] {processor.py:161} INFO - Started process (PID=342) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T08:52:39.349+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T08:52:39.352+0000] {logging_mixin.py:188} INFO - [2026-04-25T08:52:39.352+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T08:52:39.377+0000] {logging_mixin.py:188} INFO - [2026-04-25T08:52:39.376+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T08:52:39.377+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T08:52:39.384+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.039 seconds
+[2026-04-25T10:31:08.665+0000] {processor.py:161} INFO - Started process (PID=349) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T10:31:08.666+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T10:31:08.670+0000] {logging_mixin.py:188} INFO - [2026-04-25T10:31:08.669+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T10:31:08.696+0000] {logging_mixin.py:188} INFO - [2026-04-25T10:31:08.695+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T10:31:08.696+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T10:31:08.706+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.044 seconds
+[2026-04-25T11:36:09.610+0000] {processor.py:161} INFO - Started process (PID=356) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T11:36:09.611+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T11:36:09.614+0000] {logging_mixin.py:188} INFO - [2026-04-25T11:36:09.613+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T11:36:09.638+0000] {logging_mixin.py:188} INFO - [2026-04-25T11:36:09.635+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T11:36:09.638+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T11:36:09.647+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.039 seconds
+[2026-04-25T13:18:41.124+0000] {processor.py:161} INFO - Started process (PID=363) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T13:18:41.125+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T13:18:41.127+0000] {logging_mixin.py:188} INFO - [2026-04-25T13:18:41.127+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T13:18:41.152+0000] {logging_mixin.py:188} INFO - [2026-04-25T13:18:41.151+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T13:18:41.153+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T13:18:41.164+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.047 seconds
+[2026-04-25T15:01:13.164+0000] {processor.py:161} INFO - Started process (PID=370) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T15:01:13.165+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T15:01:13.167+0000] {logging_mixin.py:188} INFO - [2026-04-25T15:01:13.167+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T15:01:13.194+0000] {logging_mixin.py:188} INFO - [2026-04-25T15:01:13.193+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T15:01:13.196+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T15:01:13.204+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.043 seconds
+[2026-04-25T16:25:08.244+0000] {processor.py:161} INFO - Started process (PID=377) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T16:25:08.245+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T16:25:08.248+0000] {logging_mixin.py:188} INFO - [2026-04-25T16:25:08.248+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T16:25:08.276+0000] {logging_mixin.py:188} INFO - [2026-04-25T16:25:08.274+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T16:25:08.276+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T16:25:08.285+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.046 seconds
+[2026-04-25T17:10:11.914+0000] {processor.py:161} INFO - Started process (PID=384) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T17:10:11.916+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T17:10:11.917+0000] {logging_mixin.py:188} INFO - [2026-04-25T17:10:11.917+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T17:10:11.940+0000] {logging_mixin.py:188} INFO - [2026-04-25T17:10:11.939+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T17:10:11.945+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T17:10:11.958+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.047 seconds
+[2026-04-25T17:19:08.730+0000] {processor.py:161} INFO - Started process (PID=391) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T17:19:08.731+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T17:19:08.736+0000] {logging_mixin.py:188} INFO - [2026-04-25T17:19:08.736+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T17:19:08.755+0000] {logging_mixin.py:188} INFO - [2026-04-25T17:19:08.754+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T17:19:08.755+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T17:19:08.764+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.036 seconds
+[2026-04-25T17:19:39.359+0000] {processor.py:161} INFO - Started process (PID=398) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T17:19:39.362+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T17:19:39.364+0000] {logging_mixin.py:188} INFO - [2026-04-25T17:19:39.364+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T17:19:39.386+0000] {logging_mixin.py:188} INFO - [2026-04-25T17:19:39.385+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T17:19:39.386+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T17:19:39.395+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.038 seconds
+[2026-04-25T18:17:56.345+0000] {processor.py:161} INFO - Started process (PID=405) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T18:17:56.347+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T18:17:56.351+0000] {logging_mixin.py:188} INFO - [2026-04-25T18:17:56.350+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T18:17:56.382+0000] {logging_mixin.py:188} INFO - [2026-04-25T18:17:56.380+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T18:17:56.382+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T18:17:56.394+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.054 seconds
+[2026-04-25T18:20:37.728+0000] {processor.py:161} INFO - Started process (PID=412) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T18:20:37.729+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T18:20:37.732+0000] {logging_mixin.py:188} INFO - [2026-04-25T18:20:37.732+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T18:20:37.761+0000] {logging_mixin.py:188} INFO - [2026-04-25T18:20:37.760+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T18:20:37.762+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T18:20:37.771+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.048 seconds
+[2026-04-25T18:43:12.041+0000] {processor.py:161} INFO - Started process (PID=419) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T18:43:12.042+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T18:43:12.045+0000] {logging_mixin.py:188} INFO - [2026-04-25T18:43:12.045+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T18:43:12.063+0000] {logging_mixin.py:188} INFO - [2026-04-25T18:43:12.062+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T18:43:12.064+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T18:43:12.071+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.033 seconds
+[2026-04-25T18:52:28.138+0000] {processor.py:161} INFO - Started process (PID=426) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T18:52:28.140+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T18:52:28.142+0000] {logging_mixin.py:188} INFO - [2026-04-25T18:52:28.142+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T18:52:28.167+0000] {logging_mixin.py:188} INFO - [2026-04-25T18:52:28.166+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T18:52:28.167+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T18:52:28.176+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.041 seconds
+[2026-04-25T18:57:56.952+0000] {processor.py:161} INFO - Started process (PID=433) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T18:57:56.954+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T18:57:56.956+0000] {logging_mixin.py:188} INFO - [2026-04-25T18:57:56.956+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T18:57:56.981+0000] {logging_mixin.py:188} INFO - [2026-04-25T18:57:56.979+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T18:57:56.981+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T18:57:56.992+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.043 seconds
+[2026-04-25T18:59:27.407+0000] {processor.py:161} INFO - Started process (PID=440) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T18:59:27.409+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T18:59:27.411+0000] {logging_mixin.py:188} INFO - [2026-04-25T18:59:27.411+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T18:59:27.433+0000] {logging_mixin.py:188} INFO - [2026-04-25T18:59:27.432+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T18:59:27.433+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T18:59:27.442+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.037 seconds
+[2026-04-25T19:02:26.304+0000] {processor.py:161} INFO - Started process (PID=447) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T19:02:26.306+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T19:02:26.308+0000] {logging_mixin.py:188} INFO - [2026-04-25T19:02:26.308+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T19:02:26.334+0000] {logging_mixin.py:188} INFO - [2026-04-25T19:02:26.333+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T19:02:26.335+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T19:02:26.346+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.045 seconds
+[2026-04-25T19:19:58.800+0000] {processor.py:161} INFO - Started process (PID=454) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T19:19:58.801+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T19:19:58.804+0000] {logging_mixin.py:188} INFO - [2026-04-25T19:19:58.803+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T19:19:58.830+0000] {logging_mixin.py:188} INFO - [2026-04-25T19:19:58.828+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T19:19:58.831+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T19:19:58.841+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.045 seconds
+[2026-04-25T19:30:25.945+0000] {processor.py:161} INFO - Started process (PID=461) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T19:30:25.946+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T19:30:25.949+0000] {logging_mixin.py:188} INFO - [2026-04-25T19:30:25.949+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T19:30:25.982+0000] {logging_mixin.py:188} INFO - [2026-04-25T19:30:25.980+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T19:30:25.983+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T19:30:25.991+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.050 seconds
+[2026-04-25T19:31:02.638+0000] {processor.py:161} INFO - Started process (PID=468) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T19:31:02.638+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T19:31:02.640+0000] {logging_mixin.py:188} INFO - [2026-04-25T19:31:02.640+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T19:31:02.655+0000] {logging_mixin.py:188} INFO - [2026-04-25T19:31:02.655+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T19:31:02.656+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T19:31:02.663+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.028 seconds
+[2026-04-25T19:33:54.977+0000] {processor.py:161} INFO - Started process (PID=475) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T19:33:54.980+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T19:33:54.982+0000] {logging_mixin.py:188} INFO - [2026-04-25T19:33:54.981+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T19:33:55.014+0000] {logging_mixin.py:188} INFO - [2026-04-25T19:33:55.011+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T19:33:55.015+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T19:33:55.029+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.055 seconds
+[2026-04-25T19:45:06.726+0000] {processor.py:161} INFO - Started process (PID=482) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T19:45:06.730+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T19:45:06.732+0000] {logging_mixin.py:188} INFO - [2026-04-25T19:45:06.732+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T19:45:06.758+0000] {logging_mixin.py:188} INFO - [2026-04-25T19:45:06.756+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T19:45:06.759+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T19:45:06.771+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.050 seconds
+[2026-04-25T20:12:05.592+0000] {processor.py:161} INFO - Started process (PID=489) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T20:12:05.594+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T20:12:05.599+0000] {logging_mixin.py:188} INFO - [2026-04-25T20:12:05.599+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T20:12:05.635+0000] {logging_mixin.py:188} INFO - [2026-04-25T20:12:05.631+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T20:12:05.636+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T20:12:05.652+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.064 seconds
+[2026-04-25T20:13:01.874+0000] {processor.py:161} INFO - Started process (PID=496) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T20:13:01.875+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T20:13:01.876+0000] {logging_mixin.py:188} INFO - [2026-04-25T20:13:01.876+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T20:13:01.891+0000] {logging_mixin.py:188} INFO - [2026-04-25T20:13:01.890+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T20:13:01.892+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T20:13:01.899+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.027 seconds
+[2026-04-25T20:14:08.837+0000] {processor.py:161} INFO - Started process (PID=503) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T20:14:08.838+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T20:14:08.841+0000] {logging_mixin.py:188} INFO - [2026-04-25T20:14:08.840+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T20:14:08.865+0000] {logging_mixin.py:188} INFO - [2026-04-25T20:14:08.864+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T20:14:08.866+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T20:14:08.877+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.043 seconds
+[2026-04-25T20:15:32.334+0000] {processor.py:161} INFO - Started process (PID=510) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T20:15:32.335+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T20:15:32.337+0000] {logging_mixin.py:188} INFO - [2026-04-25T20:15:32.337+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T20:15:32.355+0000] {logging_mixin.py:188} INFO - [2026-04-25T20:15:32.353+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T20:15:32.355+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T20:15:32.363+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.031 seconds
+[2026-04-25T20:16:16.676+0000] {processor.py:161} INFO - Started process (PID=517) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T20:16:16.677+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T20:16:16.680+0000] {logging_mixin.py:188} INFO - [2026-04-25T20:16:16.679+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T20:16:16.700+0000] {logging_mixin.py:188} INFO - [2026-04-25T20:16:16.697+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T20:16:16.702+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T20:16:16.711+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.038 seconds
+[2026-04-25T20:20:51.279+0000] {processor.py:161} INFO - Started process (PID=524) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T20:20:51.281+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T20:20:51.284+0000] {logging_mixin.py:188} INFO - [2026-04-25T20:20:51.284+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T20:20:51.319+0000] {logging_mixin.py:188} INFO - [2026-04-25T20:20:51.317+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T20:20:51.320+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T20:20:51.337+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.062 seconds
+[2026-04-25T20:21:46.434+0000] {processor.py:161} INFO - Started process (PID=531) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T20:21:46.435+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T20:21:46.436+0000] {logging_mixin.py:188} INFO - [2026-04-25T20:21:46.436+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T20:21:46.454+0000] {logging_mixin.py:188} INFO - [2026-04-25T20:21:46.453+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T20:21:46.455+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T20:21:46.460+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.029 seconds
+[2026-04-25T20:32:43.541+0000] {processor.py:161} INFO - Started process (PID=538) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T20:32:43.543+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T20:32:43.545+0000] {logging_mixin.py:188} INFO - [2026-04-25T20:32:43.545+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T20:32:43.567+0000] {logging_mixin.py:188} INFO - [2026-04-25T20:32:43.566+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T20:32:43.569+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T20:32:43.576+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.037 seconds
+[2026-04-25T21:21:44.128+0000] {processor.py:161} INFO - Started process (PID=545) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T21:21:44.131+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T21:21:44.136+0000] {logging_mixin.py:188} INFO - [2026-04-25T21:21:44.136+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T21:21:44.194+0000] {logging_mixin.py:188} INFO - [2026-04-25T21:21:44.190+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T21:21:44.195+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T21:21:44.216+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.094 seconds
+[2026-04-25T21:22:14.951+0000] {processor.py:161} INFO - Started process (PID=552) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T21:22:14.952+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T21:22:14.953+0000] {logging_mixin.py:188} INFO - [2026-04-25T21:22:14.953+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T21:22:14.974+0000] {logging_mixin.py:188} INFO - [2026-04-25T21:22:14.973+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T21:22:14.975+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T21:22:14.981+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.036 seconds
+[2026-04-25T22:11:57.078+0000] {processor.py:161} INFO - Started process (PID=559) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T22:11:57.080+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T22:11:57.082+0000] {logging_mixin.py:188} INFO - [2026-04-25T22:11:57.082+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T22:11:57.103+0000] {logging_mixin.py:188} INFO - [2026-04-25T22:11:57.102+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T22:11:57.103+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T22:11:57.110+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.033 seconds
+[2026-04-25T22:12:27.719+0000] {processor.py:161} INFO - Started process (PID=566) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T22:12:27.720+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T22:12:27.724+0000] {logging_mixin.py:188} INFO - [2026-04-25T22:12:27.724+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T22:12:27.743+0000] {logging_mixin.py:188} INFO - [2026-04-25T22:12:27.742+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T22:12:27.743+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T22:12:27.750+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.033 seconds
+[2026-04-25T22:39:08.445+0000] {processor.py:161} INFO - Started process (PID=573) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T22:39:08.446+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T22:39:08.448+0000] {logging_mixin.py:188} INFO - [2026-04-25T22:39:08.448+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T22:39:08.464+0000] {logging_mixin.py:188} INFO - [2026-04-25T22:39:08.464+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T22:39:08.465+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T22:39:08.471+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.028 seconds
+[2026-04-25T23:23:48.094+0000] {processor.py:161} INFO - Started process (PID=580) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T23:23:48.096+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T23:23:48.102+0000] {logging_mixin.py:188} INFO - [2026-04-25T23:23:48.101+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T23:23:48.138+0000] {logging_mixin.py:188} INFO - [2026-04-25T23:23:48.136+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T23:23:48.139+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T23:23:48.154+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.066 seconds
+[2026-04-25T23:31:20.865+0000] {processor.py:161} INFO - Started process (PID=587) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T23:31:20.865+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T23:31:20.868+0000] {logging_mixin.py:188} INFO - [2026-04-25T23:31:20.867+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T23:31:20.884+0000] {logging_mixin.py:188} INFO - [2026-04-25T23:31:20.883+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T23:31:20.884+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T23:31:20.890+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.028 seconds
+[2026-04-25T23:34:47.783+0000] {processor.py:161} INFO - Started process (PID=594) to work on /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T23:34:47.783+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_ETL_incremental.py for tasks to queue
+[2026-04-25T23:34:47.788+0000] {logging_mixin.py:188} INFO - [2026-04-25T23:34:47.788+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T23:34:47.805+0000] {logging_mixin.py:188} INFO - [2026-04-25T23:34:47.804+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/weather_ETL_incremental.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/weather_ETL_incremental.py", line 173, in <module>
+    LATITUDE = Variable.get("latitude")
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable latitude does not exist'
+[2026-04-25T23:34:47.805+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/weather_ETL_incremental.py
+[2026-04-25T23:34:47.813+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_ETL_incremental.py took 0.032 seconds

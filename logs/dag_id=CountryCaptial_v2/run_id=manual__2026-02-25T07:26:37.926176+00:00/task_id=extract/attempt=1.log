@@ -1,0 +1,2 @@
+[2026-02-25T07:50:13.134+0000] {taskinstance.py:1946} INFO - Dependencies not met for <TaskInstance: CountryCaptial_v2.extract manual__2026-02-25T07:26:37.926176+00:00 [failed]>, dependency 'Task Instance State' FAILED: Task is in the 'failed' state.
+[2026-02-25T07:50:13.141+0000] {local_task_job_runner.py:160} INFO - Task is not able to be run

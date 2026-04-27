@@ -1,0 +1,521 @@
+[2026-04-18T06:33:05.966+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: country_capital_pipeline.load scheduled__2026-04-17T00:00:00+00:00 [queued]>
+[2026-04-18T06:33:05.975+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: country_capital_pipeline.load scheduled__2026-04-17T00:00:00+00:00 [queued]>
+[2026-04-18T06:33:05.975+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2026-04-18T06:33:05.982+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): load> on 2026-04-17 00:00:00+00:00
+[2026-04-18T06:33:05.985+0000] {standard_task_runner.py:60} INFO - Started process 76 to run task
+[2026-04-18T06:33:05.988+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'country_capital_pipeline', 'load', 'scheduled__2026-04-17T00:00:00+00:00', '--job-id', '202', '--raw', '--subdir', 'DAGS_FOLDER/country_capital_etl.py', '--cfg-path', '/tmp/tmpiab8tkah']
+[2026-04-18T06:33:05.990+0000] {standard_task_runner.py:88} INFO - Job 202: Subtask load
+[2026-04-18T06:33:06.018+0000] {task_command.py:423} INFO - Running <TaskInstance: country_capital_pipeline.load scheduled__2026-04-17T00:00:00+00:00 [running]> on host 4589d7dcd571
+[2026-04-18T06:33:06.080+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='country_capital_pipeline' AIRFLOW_CTX_TASK_ID='load' AIRFLOW_CTX_EXECUTION_DATE='2026-04-17T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-04-17T00:00:00+00:00'
+[2026-04-18T06:33:06.087+0000] {base.py:83} INFO - Using connection ID 'snowflake_conn' for task execution.
+[2026-04-18T06:33:06.088+0000] {connection.py:370} INFO - Snowflake Connector for Python Version: 3.6.0, Python Version: 3.8.18, Platform: Linux-6.12.68-linuxkit-aarch64-with-glibc2.34
+[2026-04-18T06:33:06.089+0000] {connection.py:1171} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2026-04-18T06:33:06.678+0000] {cursor.py:1028} INFO - query: [BEGIN]
+[2026-04-18T06:33:07.211+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:07.212+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2026-04-18T06:33:07.212+0000] {cursor.py:1028} INFO - query: [CREATE TABLE IF NOT EXISTS COUNTRY_CAPITALS ( COUNTRY STRING, CAPITAL STRING )]
+[2026-04-18T06:33:07.372+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:07.373+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2026-04-18T06:33:07.374+0000] {cursor.py:1028} INFO - query: [TRUNCATE TABLE COUNTRY_CAPITALS]
+[2026-04-18T06:33:07.982+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:07.984+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2026-04-18T06:33:07.985+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Ivory Coast', 'Yamousso...]
+[2026-04-18T06:33:09.192+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:09.192+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Italy', 'Rome')]
+[2026-04-18T06:33:10.459+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:10.460+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Kyrgyzstan', 'Bishkek')...]
+[2026-04-18T06:33:11.215+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:11.215+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Papua New Guinea', 'Por...]
+[2026-04-18T06:33:11.732+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:11.733+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Fiji', 'Suva')]
+[2026-04-18T06:33:12.182+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:12.185+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('United Arab Emirates', ...]
+[2026-04-18T06:33:13.000+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:13.001+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Saint Kitts and Nevis',...]
+[2026-04-18T06:33:13.716+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:13.718+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('French Guiana', 'Cayenn...]
+[2026-04-18T06:33:14.636+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:14.638+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Tanzania', 'Dodoma')]
+[2026-04-18T06:33:15.349+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:15.349+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Angola', 'Luanda')]
+[2026-04-18T06:33:15.738+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:15.738+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Togo', 'Lomé')]
+[2026-04-18T06:33:16.157+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:16.158+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Finland', 'Helsinki')]
+[2026-04-18T06:33:16.514+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:16.515+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Malawi', 'Lilongwe')]
+[2026-04-18T06:33:16.837+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:16.838+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Mali', 'Bamako')]
+[2026-04-18T06:33:19.139+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:19.140+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Uzbekistan', 'Tashkent'...]
+[2026-04-18T06:33:20.178+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:20.180+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Senegal', 'Dakar')]
+[2026-04-18T06:33:20.825+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:20.826+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Uganda', 'Kampala')]
+[2026-04-18T06:33:21.249+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:21.251+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Djibouti', 'Djibouti')]
+[2026-04-18T06:33:21.696+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:21.697+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('South Sudan', 'Juba')]
+[2026-04-18T06:33:22.277+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:22.278+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Jersey', 'Saint Helier'...]
+[2026-04-18T06:33:23.295+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:23.296+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Tuvalu', 'Funafuti')]
+[2026-04-18T06:33:24.048+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:24.049+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Japan', 'Tokyo')]
+[2026-04-18T06:33:24.385+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:24.386+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Oman', 'Muscat')]
+[2026-04-18T06:33:25.290+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:25.291+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Belgium', 'Brussels')]
+[2026-04-18T06:33:25.798+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:25.800+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Saint Martin', 'Marigot...]
+[2026-04-18T06:33:26.407+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:26.408+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Mayotte', 'Mamoudzou')]
+[2026-04-18T06:33:26.924+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:26.925+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('France', 'Paris')]
+[2026-04-18T06:33:27.536+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:27.537+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Bulgaria', 'Sofia')]
+[2026-04-18T06:33:27.881+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:27.883+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Cyprus', 'Nicosia')]
+[2026-04-18T06:33:28.314+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:28.314+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('South Korea', 'Seoul')]
+[2026-04-18T06:33:28.787+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:28.788+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Mexico', 'Mexico City')...]
+[2026-04-18T06:33:29.262+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:29.263+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('North Macedonia', 'Skop...]
+[2026-04-18T06:33:29.788+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:29.789+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Guyana', 'Georgetown')]
+[2026-04-18T06:33:30.689+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:30.691+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Kosovo', 'Pristina')]
+[2026-04-18T06:33:31.426+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:31.427+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Morocco', 'Rabat')]
+[2026-04-18T06:33:31.884+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:31.885+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Gibraltar', 'Gibraltar'...]
+[2026-04-18T06:33:32.247+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:32.248+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Western Sahara', 'El Aa...]
+[2026-04-18T06:33:32.964+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:32.966+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Andorra', 'Andorra la V...]
+[2026-04-18T06:33:33.785+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:33.786+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Palau', 'Ngerulmud')]
+[2026-04-18T06:33:34.165+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:34.167+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Guinea', 'Conakry')]
+[2026-04-18T06:33:35.013+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:35.014+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Turks and Caicos Island...]
+[2026-04-18T06:33:36.112+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:36.114+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Saudi Arabia', 'Riyadh'...]
+[2026-04-18T06:33:36.629+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:36.630+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Botswana', 'Gaborone')]
+[2026-04-18T06:33:37.077+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:37.078+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Comoros', 'Moroni')]
+[2026-04-18T06:33:37.673+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:37.674+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Belize', 'Belmopan')]
+[2026-04-18T06:33:38.188+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:38.189+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Cambodia', 'Phnom Penh'...]
+[2026-04-18T06:33:38.701+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:38.703+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Saint Lucia', 'Castries...]
+[2026-04-18T06:33:39.516+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:39.516+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Mauritania', 'Nouakchot...]
+[2026-04-18T06:33:40.055+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:40.056+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Jamaica', 'Kingston')]
+[2026-04-18T06:33:41.387+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:41.388+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Cape Verde', 'Praia')]
+[2026-04-18T06:33:42.032+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:42.033+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Marshall Islands', 'Maj...]
+[2026-04-18T06:33:42.515+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:42.517+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Namibia', 'Windhoek')]
+[2026-04-18T06:33:42.918+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:42.921+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Iran', 'Tehran')]
+[2026-04-18T06:33:43.411+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:43.412+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Wallis and Futuna', 'Ma...]
+[2026-04-18T06:33:44.845+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:44.846+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Azerbaijan', 'Baku')]
+[2026-04-18T06:33:45.700+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:45.701+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Niger', 'Niamey')]
+[2026-04-18T06:33:47.162+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:47.164+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Laos', 'Vientiane')]
+[2026-04-18T06:33:47.715+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:47.715+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Burkina Faso', 'Ouagado...]
+[2026-04-18T06:33:48.941+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:48.942+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Cocos (Keeling) Islands...]
+[2026-04-18T06:33:49.496+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:49.498+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Luxembourg', 'Luxembour...]
+[2026-04-18T06:33:50.067+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:50.068+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Indonesia', 'Jakarta')]
+[2026-04-18T06:33:50.495+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:50.496+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Lebanon', 'Beirut')]
+[2026-04-18T06:33:51.825+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:51.826+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Turkey', 'Ankara')]
+[2026-04-18T06:33:52.317+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:52.318+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Timor-Leste', 'Dili')]
+[2026-04-18T06:33:52.703+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:52.704+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Zimbabwe', 'Harare')]
+[2026-04-18T06:33:53.240+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:53.241+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('South Africa', 'Pretori...]
+[2026-04-18T06:33:54.256+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:54.258+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Armenia', 'Yerevan')]
+[2026-04-18T06:33:54.772+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:54.773+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Ireland', 'Dublin')]
+[2026-04-18T06:33:55.289+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:55.290+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Norway', 'Oslo')]
+[2026-04-18T06:33:56.010+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:56.011+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Kenya', 'Nairobi')]
+[2026-04-18T06:33:56.822+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:56.823+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('North Korea', 'Pyongyan...]
+[2026-04-18T06:33:57.334+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:57.335+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Afghanistan', 'Kabul')]
+[2026-04-18T06:33:57.844+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:57.845+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Bermuda', 'Hamilton')]
+[2026-04-18T06:33:58.459+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:58.459+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Spain', 'Madrid')]
+[2026-04-18T06:33:59.282+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:33:59.283+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Netherlands', 'Amsterda...]
+[2026-04-18T06:34:00.142+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:00.143+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Nicaragua', 'Managua')]
+[2026-04-18T06:34:00.716+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:00.717+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Lesotho', 'Maseru')]
+[2026-04-18T06:34:01.837+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:01.838+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Egypt', 'Cairo')]
+[2026-04-18T06:34:02.660+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:02.661+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Gambia', 'Banjul')]
+[2026-04-18T06:34:03.070+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:03.071+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Brazil', 'Brasília')]
+[2026-04-18T06:34:03.686+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:03.688+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Australia', 'Canberra')...]
+[2026-04-18T06:34:04.097+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:04.100+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Pitcairn Islands', 'Ada...]
+[2026-04-18T06:34:04.904+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:04.904+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Barbados', 'Bridgetown'...]
+[2026-04-18T06:34:06.032+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:06.034+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Madagascar', 'Antananar...]
+[2026-04-18T06:34:06.714+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:06.715+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('United Kingdom', 'Londo...]
+[2026-04-18T06:34:07.370+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:07.372+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Portugal', 'Lisbon')]
+[2026-04-18T06:34:08.301+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:08.302+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Greenland', 'Nuuk')]
+[2026-04-18T06:34:08.654+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:08.657+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('American Samoa', 'Pago ...]
+[2026-04-18T06:34:09.139+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:09.140+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('South Georgia', 'King E...]
+[2026-04-18T06:34:10.653+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:10.654+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Turkmenistan', 'Ashgaba...]
+[2026-04-18T06:34:11.265+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:11.266+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Guadeloupe', 'Basse-Ter...]
+[2026-04-18T06:34:12.067+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:12.068+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Dominica', 'Roseau')]
+[2026-04-18T06:34:12.804+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:12.806+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Solomon Islands', 'Honi...]
+[2026-04-18T06:34:13.313+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:13.316+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Saint Pierre and Miquel...]
+[2026-04-18T06:34:13.820+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:13.820+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Rwanda', 'Kigali')]
+[2026-04-18T06:34:14.314+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:14.315+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Norfolk Island', 'Kings...]
+[2026-04-18T06:34:14.848+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:14.913+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Panama', 'Panama City')...]
+[2026-04-18T06:34:15.359+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:15.362+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Bahamas', 'Nassau')]
+[2026-04-18T06:34:15.872+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:15.873+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Tokelau', 'Fakaofo')]
+[2026-04-18T06:34:17.310+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:17.312+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Montenegro', 'Podgorica...]
+[2026-04-18T06:34:18.120+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:18.121+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Åland Islands', 'Marieh...]
+[2026-04-18T06:34:19.042+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:19.043+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Niue', 'Alofi')]
+[2026-04-18T06:34:19.405+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:19.406+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Argentina', 'Buenos Air...]
+[2026-04-18T06:34:19.963+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:19.964+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Cuba', 'Havana')]
+[2026-04-18T06:34:20.341+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:20.344+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Cayman Islands', 'Georg...]
+[2026-04-18T06:34:20.763+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:20.765+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Kazakhstan', 'Astana')]
+[2026-04-18T06:34:21.179+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:21.180+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Russia', 'Moscow')]
+[2026-04-18T06:34:21.661+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:21.662+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('India', 'New Delhi')]
+[2026-04-18T06:34:22.437+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:22.438+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('British Virgin Islands'...]
+[2026-04-18T06:34:22.830+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:22.831+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Guam', 'Hagåtña')]
+[2026-04-18T06:34:23.572+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:23.573+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Myanmar', 'Naypyidaw')]
+[2026-04-18T06:34:23.966+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:23.967+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('DR Congo', 'Kinshasa')]
+[2026-04-18T06:34:24.326+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:24.327+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Mauritius', 'Port Louis...]
+[2026-04-18T06:34:24.791+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:24.792+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Falkland Islands', 'Sta...]
+[2026-04-18T06:34:26.215+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:26.216+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Northern Mariana Island...]
+[2026-04-18T06:34:26.554+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:26.555+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Ukraine', 'Kyiv')]
+[2026-04-18T06:34:26.917+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:26.918+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Monaco', 'Monaco')]
+[2026-04-18T06:34:27.237+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:27.238+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Tajikistan', 'Dushanbe'...]
+[2026-04-18T06:34:28.262+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:28.263+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Malaysia', 'Kuala Lumpu...]
+[2026-04-18T06:34:28.872+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:28.873+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Somalia', 'Mogadishu')]
+[2026-04-18T06:34:29.507+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:29.509+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Antigua and Barbuda', '...]
+[2026-04-18T06:34:30.178+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:30.178+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Central African Republi...]
+[2026-04-18T06:34:30.642+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:30.643+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Israel', 'Jerusalem')]
+[2026-04-18T06:34:31.948+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:31.949+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Nigeria', 'Abuja')]
+[2026-04-18T06:34:32.767+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:32.769+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Honduras', 'Tegucigalpa...]
+[2026-04-18T06:34:33.275+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:33.276+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Sierra Leone', 'Freetow...]
+[2026-04-18T06:34:33.874+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:33.874+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Tunisia', 'Tunis')]
+[2026-04-18T06:34:34.305+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:34.306+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Lithuania', 'Vilnius')]
+[2026-04-18T06:34:34.915+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:34.916+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Iraq', 'Baghdad')]
+[2026-04-18T06:34:35.323+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:35.324+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Switzerland', 'Bern')]
+[2026-04-18T06:34:35.938+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:35.939+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Chile', 'Santiago')]
+[2026-04-18T06:34:36.659+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:36.661+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Taiwan', 'Taipei')]
+[2026-04-18T06:34:37.270+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:37.271+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Vietnam', 'Hanoi')]
+[2026-04-18T06:34:37.679+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:37.680+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Bangladesh', 'Dhaka')]
+[2026-04-18T06:34:38.195+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:38.197+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Vanuatu', 'Port Vila')]
+[2026-04-18T06:34:38.600+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:38.601+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Pakistan', 'Islamabad')...]
+[2026-04-18T06:34:39.118+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:39.119+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Latvia', 'Riga')]
+[2026-04-18T06:34:39.484+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:39.485+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Malta', 'Valletta')]
+[2026-04-18T06:34:39.991+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:39.993+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Seychelles', 'Victoria'...]
+[2026-04-18T06:34:40.559+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:40.560+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Montserrat', 'Plymouth'...]
+[2026-04-18T06:34:41.364+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:41.364+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Anguilla', 'The Valley'...]
+[2026-04-18T06:34:41.776+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:41.777+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Greece', 'Athens')]
+[2026-04-18T06:34:42.198+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:42.199+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Czechia', 'Prague')]
+[2026-04-18T06:34:42.745+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:42.746+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Zambia', 'Lusaka')]
+[2026-04-18T06:34:43.255+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:43.256+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Hong Kong', 'City of Vi...]
+[2026-04-18T06:34:45.028+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:45.030+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('United States', 'Washin...]
+[2026-04-18T06:34:45.461+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:45.463+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Eswatini', 'Mbabane')]
+[2026-04-18T06:34:45.974+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:45.975+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Slovenia', 'Ljubljana')...]
+[2026-04-18T06:34:46.374+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:46.375+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Caribbean Netherlands',...]
+[2026-04-18T06:34:46.835+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:46.836+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Maldives', 'Malé')]
+[2026-04-18T06:34:48.737+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:48.738+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Ghana', 'Accra')]
+[2026-04-18T06:34:49.561+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:49.563+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Paraguay', 'Asunción')]
+[2026-04-18T06:34:49.977+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:49.978+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Mozambique', 'Maputo')]
+[2026-04-18T06:34:51.302+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:51.303+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Palestine', 'Ramallah')...]
+[2026-04-18T06:34:51.811+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:51.812+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Moldova', 'Chișinău')]
+[2026-04-18T06:34:52.150+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:52.151+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Liberia', 'Monrovia')]
+[2026-04-18T06:34:52.635+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:52.637+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Liechtenstein', 'Vaduz'...]
+[2026-04-18T06:34:53.201+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:53.203+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Peru', 'Lima')]
+[2026-04-18T06:34:53.654+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:53.655+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Qatar', 'Doha')]
+[2026-04-18T06:34:54.347+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:54.348+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Christmas Island', 'Fly...]
+[2026-04-18T06:34:54.752+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:54.753+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Georgia', 'Tbilisi')]
+[2026-04-18T06:34:55.291+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:55.292+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Ecuador', 'Quito')]
+[2026-04-18T06:34:55.963+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:55.964+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Philippines', 'Manila')...]
+[2026-04-18T06:34:56.405+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:56.406+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Ethiopia', 'Addis Ababa...]
+[2026-04-18T06:34:56.930+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:56.931+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('United States Virgin Is...]
+[2026-04-18T06:34:57.344+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:57.345+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Syria', 'Damascus')]
+[2026-04-18T06:34:57.855+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:57.856+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Romania', 'Bucharest')]
+[2026-04-18T06:34:58.471+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:58.473+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Guatemala', 'Guatemala ...]
+[2026-04-18T06:34:58.870+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:58.872+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Nepal', 'Kathmandu')]
+[2026-04-18T06:34:59.801+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:34:59.803+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Réunion', 'Saint-Denis'...]
+[2026-04-18T06:35:00.436+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:00.437+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Benin', 'Porto-Novo')]
+[2026-04-18T06:35:01.031+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:01.032+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Kuwait', 'Kuwait City')...]
+[2026-04-18T06:35:02.172+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:02.173+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Suriname', 'Paramaribo'...]
+[2026-04-18T06:35:03.150+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:03.152+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('New Caledonia', 'Nouméa...]
+[2026-04-18T06:35:03.916+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:03.916+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Sudan', 'Khartoum')]
+[2026-04-18T06:35:04.449+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:04.449+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('United States Minor Out...]
+[2026-04-18T06:35:04.929+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:04.930+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Chad', 'N\'Djamena')]
+[2026-04-18T06:35:05.433+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:05.435+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Uruguay', 'Montevideo')...]
+[2026-04-18T06:35:06.773+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:06.775+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Bosnia and Herzegovina'...]
+[2026-04-18T06:35:07.276+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:07.278+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Trinidad and Tobago', '...]
+[2026-04-18T06:35:08.417+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:08.418+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Sweden', 'Stockholm')]
+[2026-04-18T06:35:09.498+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:09.499+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Iceland', 'Reykjavik')]
+[2026-04-18T06:35:10.217+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:10.218+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Haiti', 'Port-au-Prince...]
+[2026-04-18T06:35:11.062+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:11.063+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Brunei', 'Bandar Seri B...]
+[2026-04-18T06:35:12.086+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:12.087+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('French Southern and Ant...]
+[2026-04-18T06:35:12.513+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:12.515+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Guernsey', 'St. Peter P...]
+[2026-04-18T06:35:13.728+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:13.729+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Croatia', 'Zagreb')]
+[2026-04-18T06:35:14.587+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:14.588+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Saint Barthélemy', 'Gus...]
+[2026-04-18T06:35:15.162+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:15.164+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Mongolia', 'Ulan Bator'...]
+[2026-04-18T06:35:15.670+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:15.670+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Aruba', 'Oranjestad')]
+[2026-04-18T06:35:16.394+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:16.396+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Republic of the Congo',...]
+[2026-04-18T06:35:16.882+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:16.884+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('São Tomé and Príncipe',...]
+[2026-04-18T06:35:18.030+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:18.032+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Yemen', 'Sana\'a')]
+[2026-04-18T06:35:18.594+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:18.596+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Equatorial Guinea', 'Ci...]
+[2026-04-18T06:35:19.315+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:19.316+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Svalbard and Jan Mayen'...]
+[2026-04-18T06:35:19.873+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:19.875+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Colombia', 'Bogotá')]
+[2026-04-18T06:35:20.679+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:20.754+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Guinea-Bissau', 'Bissau...]
+[2026-04-18T06:35:21.305+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:21.306+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Kiribati', 'South Taraw...]
+[2026-04-18T06:35:22.022+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:22.023+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Germany', 'Berlin')]
+[2026-04-18T06:35:22.584+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:22.586+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Thailand', 'Bangkok')]
+[2026-04-18T06:35:23.027+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:23.028+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Isle of Man', 'Douglas'...]
+[2026-04-18T06:35:23.818+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:23.819+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Bhutan', 'Thimphu')]
+[2026-04-18T06:35:24.275+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:24.276+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Gabon', 'Libreville')]
+[2026-04-18T06:35:24.913+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:24.914+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Sint Maarten', 'Philips...]
+[2026-04-18T06:35:25.283+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:25.284+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Sri Lanka', 'Sri Jayawa...]
+[2026-04-18T06:35:25.910+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:25.911+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Albania', 'Tirana')]
+[2026-04-18T06:35:27.085+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:27.086+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('New Zealand', 'Wellingt...]
+[2026-04-18T06:35:28.475+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:28.476+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Algeria', 'Algiers')]
+[2026-04-18T06:35:28.915+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:28.915+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('San Marino', 'City of S...]
+[2026-04-18T06:35:29.399+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:29.400+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Micronesia', 'Palikir')...]
+[2026-04-18T06:35:30.472+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:30.473+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Saint Helena, Ascension...]
+[2026-04-18T06:35:31.028+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:31.029+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Curaçao', 'Willemstad')...]
+[2026-04-18T06:35:31.647+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:31.648+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('El Salvador', 'San Salv...]
+[2026-04-18T06:35:32.052+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:32.053+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Martinique', 'Fort-de-F...]
+[2026-04-18T06:35:32.941+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:32.943+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Nauru', 'Yaren')]
+[2026-04-18T06:35:33.462+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:33.463+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Vatican City', 'Vatican...]
+[2026-04-18T06:35:34.581+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:34.583+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Grenada', 'St. George\'...]
+[2026-04-18T06:35:35.040+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:35.042+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Tonga', 'Nuku\'alofa')]
+[2026-04-18T06:35:35.370+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:35.372+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Burundi', 'Gitega')]
+[2026-04-18T06:35:35.902+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:35.902+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Samoa', 'Apia')]
+[2026-04-18T06:35:36.384+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:36.385+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Denmark', 'Copenhagen')...]
+[2026-04-18T06:35:37.688+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:37.690+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Venezuela', 'Caracas')]
+[2026-04-18T06:35:39.235+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:39.236+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Austria', 'Vienna')]
+[2026-04-18T06:35:39.751+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:39.752+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Slovakia', 'Bratislava'...]
+[2026-04-18T06:35:40.282+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:40.283+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('China', 'Beijing')]
+[2026-04-18T06:35:41.122+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:41.123+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('British Indian Ocean Te...]
+[2026-04-18T06:35:41.500+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:41.501+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('French Polynesia', 'Pap...]
+[2026-04-18T06:35:42.189+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:42.190+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Bolivia', 'Sucre')]
+[2026-04-18T06:35:42.906+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:42.908+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Libya', 'Tripoli')]
+[2026-04-18T06:35:44.032+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:44.033+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Estonia', 'Tallinn')]
+[2026-04-18T06:35:44.648+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:44.649+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Cook Islands', 'Avarua'...]
+[2026-04-18T06:35:45.884+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:45.885+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Puerto Rico', 'San Juan...]
+[2026-04-18T06:35:46.381+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:46.382+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Belarus', 'Minsk')]
+[2026-04-18T06:35:46.902+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:46.903+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Faroe Islands', 'Tórsha...]
+[2026-04-18T06:35:47.416+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:47.417+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Saint Vincent and the G...]
+[2026-04-18T06:35:47.928+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:47.930+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Dominican Republic', 'S...]
+[2026-04-18T06:35:48.440+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:48.441+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Hungary', 'Budapest')]
+[2026-04-18T06:35:49.201+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:49.203+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Bahrain', 'Manama')]
+[2026-04-18T06:35:49.722+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:49.724+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Cameroon', 'Yaoundé')]
+[2026-04-18T06:35:50.380+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:50.381+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Canada', 'Ottawa')]
+[2026-04-18T06:35:50.774+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:50.775+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Eritrea', 'Asmara')]
+[2026-04-18T06:35:51.512+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:51.513+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Singapore', 'Singapore'...]
+[2026-04-18T06:35:52.533+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:52.534+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Costa Rica', 'San José'...]
+[2026-04-18T06:35:52.945+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:52.947+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Serbia', 'Belgrade')]
+[2026-04-18T06:35:53.558+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:53.559+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Poland', 'Warsaw')]
+[2026-04-18T06:35:54.164+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:54.165+0000] {cursor.py:1028} INFO - query: [INSERT INTO COUNTRY_CAPITALS (COUNTRY, CAPITAL) VALUES ('Jordan', 'Amman')]
+[2026-04-18T06:35:54.996+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:35:54.997+0000] {cursor.py:1028} INFO - query: [COMMIT]
+[2026-04-18T06:36:25.941+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-18T06:36:25.942+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2026-04-18T06:36:25.942+0000] {logging_mixin.py:188} INFO - Full refresh completed
+[2026-04-18T06:36:25.943+0000] {python.py:201} INFO - Done. Returned value was: DONE
+[2026-04-18T06:36:25.962+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=country_capital_pipeline, task_id=load, execution_date=20260417T000000, start_date=20260418T063305, end_date=20260418T063625
+[2026-04-18T06:36:26.009+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-04-18T06:36:26.021+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

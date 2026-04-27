@@ -1,0 +1,93 @@
+[2026-04-20T22:44:20.215+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: BuildELT_dbt.dbt_run manual__2026-04-20T22:43:57.517904+00:00 [queued]>
+[2026-04-20T22:44:20.221+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: BuildELT_dbt.dbt_run manual__2026-04-20T22:43:57.517904+00:00 [queued]>
+[2026-04-20T22:44:20.221+0000] {taskinstance.py:2170} INFO - Starting attempt 2 of 2
+[2026-04-20T22:44:20.229+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): dbt_run> on 2026-04-20 22:43:57.517904+00:00
+[2026-04-20T22:44:20.232+0000] {standard_task_runner.py:60} INFO - Started process 451 to run task
+[2026-04-20T22:44:20.235+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'BuildELT_dbt', 'dbt_run', 'manual__2026-04-20T22:43:57.517904+00:00', '--job-id', '355', '--raw', '--subdir', 'DAGS_FOLDER/build_elt_with_dbt.py', '--cfg-path', '/tmp/tmp8085khho']
+[2026-04-20T22:44:20.236+0000] {standard_task_runner.py:88} INFO - Job 355: Subtask dbt_run
+[2026-04-20T22:44:20.270+0000] {task_command.py:423} INFO - Running <TaskInstance: BuildELT_dbt.dbt_run manual__2026-04-20T22:43:57.517904+00:00 [running]> on host bfe7307c6ff2
+[2026-04-20T22:44:20.315+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='BuildELT_dbt' AIRFLOW_CTX_TASK_ID='dbt_run' AIRFLOW_CTX_EXECUTION_DATE='2026-04-20T22:43:57.517904+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-20T22:43:57.517904+00:00'
+[2026-04-20T22:44:20.317+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-04-20T22:44:20.318+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '/home/***/.local/bin/dbt run --profiles-dir /opt/***/dbt --project-dir /opt/***/dbt']
+[2026-04-20T22:44:20.326+0000] {subprocess.py:86} INFO - Output:
+[2026-04-20T22:44:22.289+0000] {subprocess.py:93} INFO - [0m22:44:22  Running with dbt=1.8.7
+[2026-04-20T22:44:22.966+0000] {subprocess.py:93} INFO - [0m22:44:22  Running with dbt=1.8.7
+[2026-04-20T22:44:23.034+0000] {subprocess.py:93} INFO - [0m22:44:23  Registered adapter: snowflake=1.8.4
+[2026-04-20T22:44:23.184+0000] {subprocess.py:93} INFO - [0m22:44:23  [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+[2026-04-20T22:44:23.185+0000] {subprocess.py:93} INFO - There are 1 unused configuration paths:
+[2026-04-20T22:44:23.185+0000] {subprocess.py:93} INFO - - models.spam_detection_dbt.example
+[2026-04-20T22:44:23.443+0000] {subprocess.py:93} INFO - [0m22:44:23  Found 2 models, 1 snapshot, 1 operation, 5 data tests, 1 source, 454 macros
+[2026-04-20T22:44:23.444+0000] {subprocess.py:93} INFO - [0m22:44:23
+[2026-04-20T22:44:24.650+0000] {subprocess.py:93} INFO - [0m22:44:24
+[2026-04-20T22:44:24.650+0000] {subprocess.py:93} INFO - [0m22:44:24  Running 1 on-run-start hook
+[2026-04-20T22:44:24.666+0000] {subprocess.py:93} INFO - [0m22:44:24  1 of 1 START hook: spam_detection_dbt.on-run-start.0 ........................... [RUN]
+[2026-04-20T22:44:25.070+0000] {subprocess.py:93} INFO - [0m22:44:25  1 of 1 OK hook: spam_detection_dbt.on-run-start.0 .............................. [[32mSUCCESS 1[0m in 0.40s]
+[2026-04-20T22:44:25.071+0000] {subprocess.py:93} INFO - [0m22:44:25
+[2026-04-20T22:44:25.192+0000] {subprocess.py:93} INFO - [0m22:44:25  Concurrency: 1 threads (target='dev')
+[2026-04-20T22:44:25.192+0000] {subprocess.py:93} INFO - [0m22:44:25
+[2026-04-20T22:44:25.198+0000] {subprocess.py:93} INFO - [0m22:44:25  1 of 2 START sql table model PUBLIC.spam_summary ............................... [RUN]
+[2026-04-20T22:44:26.744+0000] {subprocess.py:93} INFO - [0m22:44:26  1 of 2 OK created sql table model PUBLIC.spam_summary .......................... [[32mSUCCESS 1[0m in 1.54s]
+[2026-04-20T22:44:26.748+0000] {subprocess.py:93} INFO - [0m22:44:26  2 of 2 START sql view model PUBLIC.stg_spam_emails ............................. [RUN]
+[2026-04-20T22:44:27.553+0000] {subprocess.py:93} INFO - [0m22:44:27  2 of 2 OK created sql view model PUBLIC.stg_spam_emails ........................ [[32mSUCCESS 1[0m in 0.80s]
+[2026-04-20T22:44:27.557+0000] {subprocess.py:93} INFO - [0m22:44:27
+[2026-04-20T22:44:27.561+0000] {subprocess.py:93} INFO - [0m22:44:27  Finished running 1 table model, 1 view model, 1 project hook in 0 hours 0 minutes and 4.11 seconds (4.11s).
+[2026-04-20T22:44:27.592+0000] {subprocess.py:93} INFO - [0m22:44:27
+[2026-04-20T22:44:27.592+0000] {subprocess.py:93} INFO - [0m22:44:27  [32mCompleted successfully[0m
+[2026-04-20T22:44:27.593+0000] {subprocess.py:93} INFO - [0m22:44:27
+[2026-04-20T22:44:27.593+0000] {subprocess.py:93} INFO - [0m22:44:27  Done. PASS=2 WARN=0 ERROR=0 SKIP=0 TOTAL=2
+[2026-04-20T22:44:28.002+0000] {subprocess.py:93} INFO - [0m22:44:28  Encountered an error:
+[2026-04-20T22:44:28.003+0000] {subprocess.py:93} INFO - 0
+[2026-04-20T22:44:28.003+0000] {subprocess.py:93} INFO - [0m22:44:28  Traceback (most recent call last):
+[2026-04-20T22:44:28.004+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/click/core.py", line 1092, in main
+[2026-04-20T22:44:28.004+0000] {subprocess.py:93} INFO -     ctx.exit()
+[2026-04-20T22:44:28.004+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/click/core.py", line 699, in exit
+[2026-04-20T22:44:28.004+0000] {subprocess.py:93} INFO -     raise Exit(code)
+[2026-04-20T22:44:28.004+0000] {subprocess.py:93} INFO - click.exceptions.Exit: 0
+[2026-04-20T22:44:28.004+0000] {subprocess.py:93} INFO - 
+[2026-04-20T22:44:28.004+0000] {subprocess.py:93} INFO - During handling of the above exception, another exception occurred:
+[2026-04-20T22:44:28.005+0000] {subprocess.py:93} INFO - 
+[2026-04-20T22:44:28.005+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2026-04-20T22:44:28.005+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/dbt/cli/requires.py", line 138, in wrapper
+[2026-04-20T22:44:28.005+0000] {subprocess.py:93} INFO -     result, success = func(*args, **kwargs)
+[2026-04-20T22:44:28.006+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/dbt/cli/requires.py", line 101, in wrapper
+[2026-04-20T22:44:28.006+0000] {subprocess.py:93} INFO -     return func(*args, **kwargs)
+[2026-04-20T22:44:28.006+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/dbt/cli/requires.py", line 218, in wrapper
+[2026-04-20T22:44:28.006+0000] {subprocess.py:93} INFO -     return func(*args, **kwargs)
+[2026-04-20T22:44:28.007+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/dbt/cli/requires.py", line 240, in wrapper
+[2026-04-20T22:44:28.007+0000] {subprocess.py:93} INFO -     set_up_plugin_manager(project_name=project.project_name)
+[2026-04-20T22:44:28.007+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/dbt/plugins/__init__.py", line 14, in set_up_plugin_manager
+[2026-04-20T22:44:28.007+0000] {subprocess.py:93} INFO -     PLUGIN_MANAGER = PluginManager.from_modules(project_name)
+[2026-04-20T22:44:28.007+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/dbt/plugins/manager.py", line 120, in from_modules
+[2026-04-20T22:44:28.008+0000] {subprocess.py:93} INFO -     discovered_dbt_modules = cls.get_prefixed_modules()
+[2026-04-20T22:44:28.008+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/dbt/plugins/manager.py", line 136, in get_prefixed_modules
+[2026-04-20T22:44:28.008+0000] {subprocess.py:93} INFO -     return {
+[2026-04-20T22:44:28.008+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/dbt/plugins/manager.py", line 137, in <dictcomp>
+[2026-04-20T22:44:28.008+0000] {subprocess.py:93} INFO -     name: importlib.import_module(name)
+[2026-04-20T22:44:28.008+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+[2026-04-20T22:44:28.009+0000] {subprocess.py:93} INFO -     return _bootstrap._gcd_import(name[level:], package, level)
+[2026-04-20T22:44:28.009+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+[2026-04-20T22:44:28.009+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+[2026-04-20T22:44:28.009+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+[2026-04-20T22:44:28.009+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+[2026-04-20T22:44:28.009+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+[2026-04-20T22:44:28.010+0000] {subprocess.py:93} INFO -   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[2026-04-20T22:44:28.010+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/dbt_runner.py", line 7, in <module>
+[2026-04-20T22:44:28.010+0000] {subprocess.py:93} INFO -     sys.exit(cli())
+[2026-04-20T22:44:28.010+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/click/core.py", line 1161, in __call__
+[2026-04-20T22:44:28.010+0000] {subprocess.py:93} INFO -     return self.main(*args, **kwargs)
+[2026-04-20T22:44:28.011+0000] {subprocess.py:93} INFO -   File "/usr/local/lib/python3.8/click/core.py", line 1110, in main
+[2026-04-20T22:44:28.011+0000] {subprocess.py:93} INFO -     sys.exit(e.exit_code)
+[2026-04-20T22:44:28.011+0000] {subprocess.py:93} INFO - SystemExit: 0
+[2026-04-20T22:44:28.011+0000] {subprocess.py:93} INFO - 
+[2026-04-20T22:44:28.600+0000] {subprocess.py:97} INFO - Command exited with return code 2
+[2026-04-20T22:44:28.607+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 212, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 2.
+[2026-04-20T22:44:28.609+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=BuildELT_dbt, task_id=dbt_run, execution_date=20260420T224357, start_date=20260420T224420, end_date=20260420T224428
+[2026-04-20T22:44:28.618+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 355 for task dbt_run (Bash command failed. The command returned a non-zero exit code 2.; 451)
+[2026-04-20T22:44:28.661+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-04-20T22:44:28.674+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

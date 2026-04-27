@@ -1,0 +1,24 @@
+[2026-04-27T22:38:23.562+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pinecone_medium_articles.search_pinecone manual__2026-04-27T18:00:53.488073+00:00 [queued]>
+[2026-04-27T22:38:23.568+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pinecone_medium_articles.search_pinecone manual__2026-04-27T18:00:53.488073+00:00 [queued]>
+[2026-04-27T22:38:23.569+0000] {taskinstance.py:2170} INFO - Starting attempt 3 of 4
+[2026-04-27T22:38:23.579+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): search_pinecone> on 2026-04-27 18:00:53.488073+00:00
+[2026-04-27T22:38:23.583+0000] {standard_task_runner.py:60} INFO - Started process 377 to run task
+[2026-04-27T22:38:23.587+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'pinecone_medium_articles', 'search_pinecone', 'manual__2026-04-27T18:00:53.488073+00:00', '--job-id', '125', '--raw', '--subdir', 'DAGS_FOLDER/pinecone_medium_dag.py', '--cfg-path', '/tmp/tmpkey5fwwh']
+[2026-04-27T22:38:23.589+0000] {standard_task_runner.py:88} INFO - Job 125: Subtask search_pinecone
+[2026-04-27T22:38:23.633+0000] {task_command.py:423} INFO - Running <TaskInstance: pinecone_medium_articles.search_pinecone manual__2026-04-27T18:00:53.488073+00:00 [running]> on host 1b792d0ef707
+[2026-04-27T22:38:23.828+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='pinecone_medium_articles' AIRFLOW_CTX_TASK_ID='search_pinecone' AIRFLOW_CTX_EXECUTION_DATE='2026-04-27T18:00:53.488073+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-27T18:00:53.488073+00:00'
+[2026-04-27T22:38:25.698+0000] {pinecone_medium_dag.py:116} INFO - Loading embedding model for search...
+[2026-04-27T22:38:25.699+0000] {SentenceTransformer.py:196} INFO - Use pytorch device_name: cpu
+[2026-04-27T22:38:25.700+0000] {SentenceTransformer.py:204} INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+[2026-04-27T22:38:26.988+0000] {discover_namespace_packages.py:12} INFO - Discovering subpackages in _NamespacePath(['/home/***/.local/lib/python3.8/site-packages/pinecone_plugins'])
+[2026-04-27T22:38:26.991+0000] {discover_plugins.py:9} INFO - Looking for plugins in pinecone_plugins.inference
+[2026-04-27T22:38:26.996+0000] {installation.py:10} INFO - Installing plugin inference into Pinecone
+[2026-04-27T22:38:27.260+0000] {pinecone_medium_dag.py:122} INFO - Running search for: 'what is ethics in AI'
+[2026-04-27T22:38:27.265+0000] {logging_mixin.py:188} WARNING - Batches:   0%|          | 0/1 [00:00<?, ?it/s]
+[2026-04-27T22:38:27.751+0000] {logging_mixin.py:188} WARNING - Batches: 100%|##########| 1/1 [00:00<00:00,  2.06it/s]
+[2026-04-27T22:38:27.755+0000] {logging_mixin.py:188} WARNING - Batches: 100%|##########| 1/1 [00:00<00:00,  2.05it/s]
+[2026-04-27T22:38:28.139+0000] {pinecone_medium_dag.py:130} INFO - Top 10 results for 'what is ethics in AI':
+[2026-04-27T22:38:28.143+0000] {python.py:201} INFO - Done. Returned value was: {'query': 'what is ethics in AI', 'top_results': 0}
+[2026-04-27T22:38:28.188+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=pinecone_medium_articles, task_id=search_pinecone, execution_date=20260427T180053, start_date=20260427T223823, end_date=20260427T223828
+[2026-04-27T22:38:28.241+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-04-27T22:38:28.262+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

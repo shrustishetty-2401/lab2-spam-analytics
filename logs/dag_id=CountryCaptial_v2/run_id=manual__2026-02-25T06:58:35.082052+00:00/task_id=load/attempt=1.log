@@ -1,0 +1,67 @@
+[2026-02-25T06:58:39.341+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: CountryCaptial_v2.load manual__2026-02-25T06:58:35.082052+00:00 [queued]>
+[2026-02-25T06:58:39.350+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: CountryCaptial_v2.load manual__2026-02-25T06:58:35.082052+00:00 [queued]>
+[2026-02-25T06:58:39.350+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2026-02-25T06:58:39.359+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): load> on 2026-02-25 06:58:35.082052+00:00
+[2026-02-25T06:58:39.364+0000] {standard_task_runner.py:60} INFO - Started process 136 to run task
+[2026-02-25T06:58:39.367+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'CountryCaptial_v2', 'load', 'manual__2026-02-25T06:58:35.082052+00:00', '--job-id', '72', '--raw', '--subdir', 'DAGS_FOLDER/country_capital_to_snowflake_v2.py', '--cfg-path', '/tmp/tmpjd5d_9k1']
+[2026-02-25T06:58:39.368+0000] {standard_task_runner.py:88} INFO - Job 72: Subtask load
+[2026-02-25T06:58:39.402+0000] {task_command.py:423} INFO - Running <TaskInstance: CountryCaptial_v2.load manual__2026-02-25T06:58:35.082052+00:00 [running]> on host ccd4da2fded6
+[2026-02-25T06:58:39.458+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='CountryCaptial_v2' AIRFLOW_CTX_TASK_ID='load' AIRFLOW_CTX_EXECUTION_DATE='2026-02-25T06:58:35.082052+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-02-25T06:58:35.082052+00:00'
+[2026-02-25T06:58:39.466+0000] {base.py:83} INFO - Using connection ID 'snowflake_conn' for task execution.
+[2026-02-25T06:58:39.467+0000] {connection.py:370} INFO - Snowflake Connector for Python Version: 3.6.0, Python Version: 3.8.18, Platform: Linux-6.12.68-linuxkit-aarch64-with-glibc2.34
+[2026-02-25T06:58:39.468+0000] {connection.py:1171} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2026-02-25T06:58:39.647+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/country_capital_to_snowflake_v2.py", line 43, in load
+    cur = return_snowflake_conn()
+  File "/opt/airflow/dags/country_capital_to_snowflake_v2.py", line 19, in return_snowflake_conn
+    conn = hook.get_conn()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 276, in get_conn
+    conn = connector.connect(**conn_config)
+  File "/home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/__init__.py", line 54, in Connect
+    return SnowflakeConnection(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/connection.py", line 413, in __init__
+    self.connect(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/connection.py", line 703, in connect
+    self.__open_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/connection.py", line 1006, in __open_connection
+    self.authenticate_with_retry(self.auth_class)
+  File "/home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/connection.py", line 1277, in authenticate_with_retry
+    self._authenticate(auth_instance)
+  File "/home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/connection.py", line 1305, in _authenticate
+    auth.authenticate(
+  File "/home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/auth/_auth.py", line 250, in authenticate
+    ret = self._rest._post_request(
+  File "/home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/network.py", line 729, in _post_request
+    ret = self.fetch(
+  File "/home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/network.py", line 838, in fetch
+    ret = self._request_exec_wrapper(
+  File "/home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/network.py", line 974, in _request_exec_wrapper
+    raise e
+  File "/home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/network.py", line 879, in _request_exec_wrapper
+    return_object = self._request_exec(
+  File "/home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/network.py", line 1188, in _request_exec
+    raise err
+  File "/home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/network.py", line 1130, in _request_exec
+    raise_failed_request_error(
+  File "/home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/network.py", line 238, in raise_failed_request_error
+    Error.errorhandler_wrapper(
+  File "/home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/errors.py", line 290, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+  File "/home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/errors.py", line 348, in hand_to_other_handler
+    connection.errorhandler(connection, cursor, error_class, error_value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/errors.py", line 221, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.InterfaceError: 250003 (08001): None: 404 Not Found: post https://sfedu02.us-west-2.aws.snowflakecomputing.com:443/session/v1/login-request?request_id=9a75bcfe-56f9-4f71-b452-05e45d63d1d2&databaseName=RAW&schemaName=PUBLIC&warehouse=RABBIT_QUERY_WH&roleName=TRAINING_ROLE&request_guid=dc54e765-3f96-4967-b5df-233a73fe9c3b
+[2026-02-25T06:58:39.652+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=CountryCaptial_v2, task_id=load, execution_date=20260225T065835, start_date=20260225T065839, end_date=20260225T065839
+[2026-02-25T06:58:39.660+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 72 for task load (250003 (08001): None: 404 Not Found: post https://sfedu02.us-west-2.aws.snowflakecomputing.com:443/session/v1/login-request?request_id=9a75bcfe-56f9-4f71-b452-05e45d63d1d2&databaseName=RAW&schemaName=PUBLIC&warehouse=RABBIT_QUERY_WH&roleName=TRAINING_ROLE&request_guid=dc54e765-3f96-4967-b5df-233a73fe9c3b; 136)
+[2026-02-25T06:58:39.669+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-02-25T06:58:39.682+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

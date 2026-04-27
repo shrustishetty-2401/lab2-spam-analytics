@@ -1,0 +1,67 @@
+[2026-04-27T22:37:07.657+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pinecone_medium_articles.search_pinecone manual__2026-04-27T18:00:53.488073+00:00 [queued]>
+[2026-04-27T22:37:07.664+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pinecone_medium_articles.search_pinecone manual__2026-04-27T18:00:53.488073+00:00 [queued]>
+[2026-04-27T22:37:07.664+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2026-04-27T22:37:07.671+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): search_pinecone> on 2026-04-27 18:00:53.488073+00:00
+[2026-04-27T22:37:07.674+0000] {standard_task_runner.py:60} INFO - Started process 120 to run task
+[2026-04-27T22:37:07.677+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'pinecone_medium_articles', 'search_pinecone', 'manual__2026-04-27T18:00:53.488073+00:00', '--job-id', '106', '--raw', '--subdir', 'DAGS_FOLDER/pinecone_medium_dag.py', '--cfg-path', '/tmp/tmpcaa8iitn']
+[2026-04-27T22:37:07.678+0000] {standard_task_runner.py:88} INFO - Job 106: Subtask search_pinecone
+[2026-04-27T22:37:07.708+0000] {task_command.py:423} INFO - Running <TaskInstance: pinecone_medium_articles.search_pinecone manual__2026-04-27T18:00:53.488073+00:00 [running]> on host 1b792d0ef707
+[2026-04-27T22:37:07.876+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='pinecone_medium_articles' AIRFLOW_CTX_TASK_ID='search_pinecone' AIRFLOW_CTX_EXECUTION_DATE='2026-04-27T18:00:53.488073+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-27T18:00:53.488073+00:00'
+[2026-04-27T22:37:09.801+0000] {pinecone_medium_dag.py:116} INFO - Loading embedding model for search...
+[2026-04-27T22:37:09.802+0000] {SentenceTransformer.py:196} INFO - Use pytorch device_name: cpu
+[2026-04-27T22:37:09.803+0000] {SentenceTransformer.py:204} INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+[2026-04-27T22:37:17.756+0000] {local_task_job_runner.py:280} WARNING - Recorded pid 198 does not match the current pid 120
+[2026-04-27T22:37:17.758+0000] {process_utils.py:131} INFO - Sending 15 to group 120. PIDs of all processes in the group: [120]
+[2026-04-27T22:37:17.758+0000] {process_utils.py:86} INFO - Sending the signal 15 to group 120
+[2026-04-27T22:37:17.759+0000] {taskinstance.py:2450} ERROR - Received SIGTERM. Terminating subprocesses.
+[2026-04-27T22:37:17.759+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/transformers/modeling_utils.py", line 3809, in from_pretrained
+    resolved_archive_file = cached_file(pretrained_model_name_or_path, filename, **cached_file_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/transformers/utils/hub.py", line 403, in cached_file
+    resolved_file = hf_hub_download(
+  File "/home/airflow/.local/lib/python3.8/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/huggingface_hub/file_download.py", line 1014, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+  File "/home/airflow/.local/lib/python3.8/site-packages/huggingface_hub/file_download.py", line 1174, in _hf_hub_download_to_cache_dir
+    with WeakFileLock(lock_path):
+  File "/usr/local/lib/python3.8/contextlib.py", line 113, in __enter__
+    return next(self.gen)
+  File "/home/airflow/.local/lib/python3.8/site-packages/huggingface_hub/utils/_fixes.py", line 109, in WeakFileLock
+    lock.acquire(timeout=min(log_interval, timeout - elapsed_time) if timeout else log_interval)
+  File "/home/airflow/.local/lib/python3.8/site-packages/filelock/_api.py", line 267, in acquire
+    time.sleep(poll_interval)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 2452, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/pinecone_medium_dag.py", line 117, in search_pinecone
+    model = SentenceTransformer("all-MiniLM-L6-v2")
+  File "/home/airflow/.local/lib/python3.8/site-packages/sentence_transformers/SentenceTransformer.py", line 294, in __init__
+    modules, self.module_kwargs = self._load_sbert_model(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sentence_transformers/SentenceTransformer.py", line 1647, in _load_sbert_model
+    module = module_class(model_name_or_path, cache_dir=cache_folder, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sentence_transformers/models/Transformer.py", line 56, in __init__
+    self._load_model(model_name_or_path, config, cache_dir, **model_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sentence_transformers/models/Transformer.py", line 87, in _load_model
+    self.auto_model = AutoModel.from_pretrained(
+  File "/home/airflow/.local/lib/python3.8/site-packages/transformers/models/auto/auto_factory.py", line 564, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/airflow/.local/lib/python3.8/site-packages/transformers/modeling_utils.py", line 3925, in from_pretrained
+    raise EnvironmentError(
+OSError: Can't load the model for 'sentence-transformers/all-MiniLM-L6-v2'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'sentence-transformers/all-MiniLM-L6-v2' is the correct path to a directory containing a file named pytorch_model.bin, tf_model.h5, model.ckpt or flax_model.msgpack.
+[2026-04-27T22:37:17.767+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=pinecone_medium_articles, task_id=search_pinecone, execution_date=20260427T180053, start_date=20260427T223715, end_date=20260427T223717
+[2026-04-27T22:37:17.777+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 106 for task search_pinecone (Can't load the model for 'sentence-transformers/all-MiniLM-L6-v2'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'sentence-transformers/all-MiniLM-L6-v2' is the correct path to a directory containing a file named pytorch_model.bin, tf_model.h5, model.ckpt or flax_model.msgpack.; 120)
+[2026-04-27T22:37:17.818+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=120, status='terminated', exitcode=1, started='22:37:07') (120) terminated with exit code 1

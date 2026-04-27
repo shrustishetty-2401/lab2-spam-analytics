@@ -1,0 +1,66 @@
+[2026-04-19T06:34:31.590+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spam_email_etl.load_csv_to_snowflake scheduled__2026-04-18T00:00:00+00:00 [queued]>
+[2026-04-19T06:34:31.595+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spam_email_etl.load_csv_to_snowflake scheduled__2026-04-18T00:00:00+00:00 [queued]>
+[2026-04-19T06:34:31.595+0000] {taskinstance.py:2170} INFO - Starting attempt 9 of 9
+[2026-04-19T06:34:31.602+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): load_csv_to_snowflake> on 2026-04-18 00:00:00+00:00
+[2026-04-19T06:34:31.606+0000] {standard_task_runner.py:60} INFO - Started process 314 to run task
+[2026-04-19T06:34:31.607+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'spam_email_etl', 'load_csv_to_snowflake', 'scheduled__2026-04-18T00:00:00+00:00', '--job-id', '264', '--raw', '--subdir', 'DAGS_FOLDER/spam_email_etl.py', '--cfg-path', '/tmp/tmp9n2hyno3']
+[2026-04-19T06:34:31.610+0000] {standard_task_runner.py:88} INFO - Job 264: Subtask load_csv_to_snowflake
+[2026-04-19T06:34:31.636+0000] {task_command.py:423} INFO - Running <TaskInstance: spam_email_etl.load_csv_to_snowflake scheduled__2026-04-18T00:00:00+00:00 [running]> on host 4589d7dcd571
+[2026-04-19T06:34:31.674+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='spam_email_etl' AIRFLOW_CTX_TASK_ID='load_csv_to_snowflake' AIRFLOW_CTX_EXECUTION_DATE='2026-04-18T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='9' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-04-18T00:00:00+00:00'
+[2026-04-19T06:34:31.679+0000] {base.py:83} INFO - Using connection ID 'snowflake_default' for task execution.
+[2026-04-19T06:34:31.680+0000] {connection.py:370} INFO - Snowflake Connector for Python Version: 3.6.0, Python Version: 3.8.18, Platform: Linux-6.12.68-linuxkit-aarch64-with-glibc2.34
+[2026-04-19T06:34:31.680+0000] {connection.py:1171} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2026-04-19T06:34:31.681+0000] {connection.py:1181} INFO - THIS CONNECTION IS IN INSECURE MODE. IT MEANS THE CERTIFICATE WILL BE VALIDATED BUT THE CERTIFICATE REVOCATION STATUS WILL NOT BE CHECKED.
+[2026-04-19T06:34:31.881+0000] {ssl_wrap_socket.py:100} INFO - THIS CONNECTION IS IN INSECURE MODE. IT MEANS THE CERTIFICATE WILL BE VALIDATED BUT THE CERTIFICATE REVOCATION STATUS WILL NOT BE CHECKED.
+[2026-04-19T06:34:32.241+0000] {cursor.py:1028} INFO - query: [USE ROLE TRAINING_ROLE]
+[2026-04-19T06:34:32.409+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-19T06:34:32.410+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2026-04-19T06:34:32.411+0000] {cursor.py:1028} INFO - query: [USE WAREHOUSE RABBIT_QUERY_WH]
+[2026-04-19T06:34:32.494+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-19T06:34:32.496+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2026-04-19T06:34:32.497+0000] {cursor.py:1028} INFO - query: [USE DATABASE USER_DB_RABBIT]
+[2026-04-19T06:34:32.581+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-19T06:34:32.582+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2026-04-19T06:34:32.583+0000] {cursor.py:1028} INFO - query: [USE SCHEMA PUBLIC]
+[2026-04-19T06:34:32.684+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-19T06:34:32.685+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2026-04-19T06:34:32.685+0000] {cursor.py:1028} INFO - query: [BEGIN]
+[2026-04-19T06:34:32.856+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-19T06:34:32.857+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2026-04-19T06:34:32.857+0000] {cursor.py:1028} INFO - query: [TRUNCATE TABLE RAW_SPAM_EMAILS]
+[2026-04-19T06:34:33.196+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-19T06:34:33.197+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2026-04-19T06:34:33.208+0000] {cursor.py:1028} INFO - query: [INSERT INTO RAW_SPAM_EMAILS (LABEL, MESSAGE) VALUES ('ham', 'Go until jurong poi...]
+[2026-04-19T06:34:34.126+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-19T06:34:34.138+0000] {cursor.py:1028} INFO - query: [INSERT INTO RAW_SPAM_EMAILS (LABEL, MESSAGE) VALUES ('ham', 'Fighting with the w...]
+[2026-04-19T06:34:34.733+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-19T06:34:34.743+0000] {cursor.py:1028} INFO - query: [INSERT INTO RAW_SPAM_EMAILS (LABEL, MESSAGE) VALUES ('ham', 'No..but heard abt t...]
+[2026-04-19T06:34:35.558+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-19T06:34:35.569+0000] {cursor.py:1028} INFO - query: [INSERT INTO RAW_SPAM_EMAILS (LABEL, MESSAGE) VALUES ('ham', 'Host-based IDPS for...]
+[2026-04-19T06:34:36.063+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-19T06:34:36.072+0000] {cursor.py:1028} INFO - query: [INSERT INTO RAW_SPAM_EMAILS (LABEL, MESSAGE) VALUES ('ham', 'But i\'ll b going 2...]
+[2026-04-19T06:34:36.891+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-19T06:34:36.900+0000] {cursor.py:1028} INFO - query: [INSERT INTO RAW_SPAM_EMAILS (LABEL, MESSAGE) VALUES ('ham', 'Remember to ask ale...]
+[2026-04-19T06:34:37.574+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-19T06:34:37.581+0000] {cursor.py:1028} INFO - query: [INSERT INTO RAW_SPAM_EMAILS (LABEL, MESSAGE) VALUES ('spam', 'This message is fr...]
+[2026-04-19T06:34:38.115+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-19T06:34:38.120+0000] {cursor.py:1028} INFO - query: [INSERT INTO RAW_SPAM_EMAILS (LABEL, MESSAGE) VALUES ('ham', 'says the  &lt;#&gt;...]
+[2026-04-19T06:34:39.031+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-19T06:34:39.037+0000] {cursor.py:1028} INFO - query: [INSERT INTO RAW_SPAM_EMAILS (LABEL, MESSAGE) VALUES ('ham', 'He\'s just gonna wo...]
+[2026-04-19T06:34:39.755+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-19T06:34:39.767+0000] {cursor.py:1028} INFO - query: [INSERT INTO RAW_SPAM_EMAILS (LABEL, MESSAGE) VALUES ('ham', 'So wat\'s da decisi...]
+[2026-04-19T06:34:40.362+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-19T06:34:40.368+0000] {cursor.py:1028} INFO - query: [INSERT INTO RAW_SPAM_EMAILS (LABEL, MESSAGE) VALUES ('ham', 'Nope. Since ayo tra...]
+[2026-04-19T06:34:40.880+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-19T06:34:40.883+0000] {cursor.py:1028} INFO - query: [INSERT INTO RAW_SPAM_EMAILS (LABEL, MESSAGE) VALUES ('ham', 'Love has one law; M...]
+[2026-04-19T06:34:41.285+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-19T06:34:41.286+0000] {cursor.py:1028} INFO - query: [COMMIT]
+[2026-04-19T06:34:43.857+0000] {cursor.py:1041} INFO - query execution done
+[2026-04-19T06:34:43.858+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2026-04-19T06:34:43.858+0000] {logging_mixin.py:188} INFO - Successfully loaded spam emails to Snowflake
+[2026-04-19T06:34:43.858+0000] {connection.py:718} INFO - closed
+[2026-04-19T06:34:43.906+0000] {connection.py:724} INFO - No async queries seem to be running, deleting session
+[2026-04-19T06:34:44.002+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-04-19T06:34:44.012+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=spam_email_etl, task_id=load_csv_to_snowflake, execution_date=20260418T000000, start_date=20260419T063431, end_date=20260419T063444
+[2026-04-19T06:34:44.040+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-04-19T06:34:44.056+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

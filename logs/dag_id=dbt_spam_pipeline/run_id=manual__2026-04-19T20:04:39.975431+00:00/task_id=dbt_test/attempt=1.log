@@ -1,0 +1,46 @@
+[2026-04-19T20:13:15.782+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_spam_pipeline.dbt_test manual__2026-04-19T20:04:39.975431+00:00 [queued]>
+[2026-04-19T20:13:15.789+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_spam_pipeline.dbt_test manual__2026-04-19T20:04:39.975431+00:00 [queued]>
+[2026-04-19T20:13:15.790+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2026-04-19T20:13:15.798+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): dbt_test> on 2026-04-19 20:04:39.975431+00:00
+[2026-04-19T20:13:15.801+0000] {standard_task_runner.py:60} INFO - Started process 819 to run task
+[2026-04-19T20:13:15.804+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'dbt_spam_pipeline', 'dbt_test', 'manual__2026-04-19T20:04:39.975431+00:00', '--job-id', '327', '--raw', '--subdir', 'DAGS_FOLDER/dbt_dag.py', '--cfg-path', '/tmp/tmpa5crzugd']
+[2026-04-19T20:13:15.805+0000] {standard_task_runner.py:88} INFO - Job 327: Subtask dbt_test
+[2026-04-19T20:13:15.844+0000] {task_command.py:423} INFO - Running <TaskInstance: dbt_spam_pipeline.dbt_test manual__2026-04-19T20:04:39.975431+00:00 [running]> on host 200fc1c16217
+[2026-04-19T20:13:15.890+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dbt_spam_pipeline' AIRFLOW_CTX_TASK_ID='dbt_test' AIRFLOW_CTX_EXECUTION_DATE='2026-04-19T20:04:39.975431+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-19T20:04:39.975431+00:00'
+[2026-04-19T20:13:15.891+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-04-19T20:13:15.892+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '/usr/local/bin/dbt test --project-dir /opt/***/dags/spam_detection_dbt --profiles-dir /opt/***/dags/dbt_profiles']
+[2026-04-19T20:13:15.900+0000] {subprocess.py:86} INFO - Output:
+[2026-04-19T20:13:17.691+0000] {subprocess.py:93} INFO - [0m20:13:17  Running with dbt=1.8.7
+[2026-04-19T20:13:18.463+0000] {subprocess.py:93} INFO - [0m20:13:18  Registered adapter: snowflake=1.8.4
+[2026-04-19T20:13:18.641+0000] {subprocess.py:93} INFO - [0m20:13:18  [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+[2026-04-19T20:13:18.642+0000] {subprocess.py:93} INFO - There are 1 unused configuration paths:
+[2026-04-19T20:13:18.642+0000] {subprocess.py:93} INFO - - models.spam_detection_dbt.example
+[2026-04-19T20:13:18.993+0000] {subprocess.py:93} INFO - [0m20:13:18  Found 2 models, 1 snapshot, 1 operation, 5 data tests, 1 source, 454 macros
+[2026-04-19T20:13:18.995+0000] {subprocess.py:93} INFO - [0m20:13:18
+[2026-04-19T20:13:19.602+0000] {subprocess.py:93} INFO - [0m20:13:19
+[2026-04-19T20:13:19.602+0000] {subprocess.py:93} INFO - [0m20:13:19  Running 1 on-run-start hook
+[2026-04-19T20:13:19.612+0000] {subprocess.py:93} INFO - [0m20:13:19  1 of 1 START hook: spam_detection_dbt.on-run-start.0 ........................... [RUN]
+[2026-04-19T20:13:20.070+0000] {subprocess.py:93} INFO - [0m20:13:20  1 of 1 OK hook: spam_detection_dbt.on-run-start.0 .............................. [[32mSUCCESS 1[0m in 0.46s]
+[2026-04-19T20:13:20.071+0000] {subprocess.py:93} INFO - [0m20:13:20
+[2026-04-19T20:13:20.189+0000] {subprocess.py:93} INFO - [0m20:13:20  Concurrency: 1 threads (target='dev')
+[2026-04-19T20:13:20.189+0000] {subprocess.py:93} INFO - [0m20:13:20
+[2026-04-19T20:13:20.195+0000] {subprocess.py:93} INFO - [0m20:13:20  1 of 5 START test accepted_values_stg_spam_emails_LABEL__ham__spam ............. [RUN]
+[2026-04-19T20:13:20.924+0000] {subprocess.py:93} INFO - [0m20:13:20  1 of 5 PASS accepted_values_stg_spam_emails_LABEL__ham__spam ................... [[32mPASS[0m in 0.73s]
+[2026-04-19T20:13:20.926+0000] {subprocess.py:93} INFO - [0m20:13:20  2 of 5 START test not_null_stg_spam_emails_EMAIL_ID ............................ [RUN]
+[2026-04-19T20:13:22.128+0000] {subprocess.py:93} INFO - [0m20:13:22  2 of 5 PASS not_null_stg_spam_emails_EMAIL_ID .................................. [[32mPASS[0m in 1.20s]
+[2026-04-19T20:13:22.130+0000] {subprocess.py:93} INFO - [0m20:13:22  3 of 5 START test not_null_stg_spam_emails_IS_SPAM ............................. [RUN]
+[2026-04-19T20:13:23.437+0000] {subprocess.py:93} INFO - [0m20:13:23  3 of 5 PASS not_null_stg_spam_emails_IS_SPAM ................................... [[32mPASS[0m in 1.31s]
+[2026-04-19T20:13:23.440+0000] {subprocess.py:93} INFO - [0m20:13:23  4 of 5 START test not_null_stg_spam_emails_LABEL ............................... [RUN]
+[2026-04-19T20:13:24.073+0000] {subprocess.py:93} INFO - [0m20:13:24  4 of 5 PASS not_null_stg_spam_emails_LABEL ..................................... [[32mPASS[0m in 0.63s]
+[2026-04-19T20:13:24.075+0000] {subprocess.py:93} INFO - [0m20:13:24  5 of 5 START test unique_stg_spam_emails_EMAIL_ID .............................. [RUN]
+[2026-04-19T20:13:24.727+0000] {subprocess.py:93} INFO - [0m20:13:24  5 of 5 PASS unique_stg_spam_emails_EMAIL_ID .................................... [[32mPASS[0m in 0.65s]
+[2026-04-19T20:13:24.729+0000] {subprocess.py:93} INFO - [0m20:13:24
+[2026-04-19T20:13:24.730+0000] {subprocess.py:93} INFO - [0m20:13:24  Finished running 5 data tests, 1 project hook in 0 hours 0 minutes and 5.73 seconds (5.73s).
+[2026-04-19T20:13:24.763+0000] {subprocess.py:93} INFO - [0m20:13:24
+[2026-04-19T20:13:24.764+0000] {subprocess.py:93} INFO - [0m20:13:24  [32mCompleted successfully[0m
+[2026-04-19T20:13:24.764+0000] {subprocess.py:93} INFO - [0m20:13:24
+[2026-04-19T20:13:24.765+0000] {subprocess.py:93} INFO - [0m20:13:24  Done. PASS=5 WARN=0 ERROR=0 SKIP=0 TOTAL=5
+[2026-04-19T20:13:25.358+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-04-19T20:13:25.373+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=dbt_spam_pipeline, task_id=dbt_test, execution_date=20260419T200439, start_date=20260419T201315, end_date=20260419T201325
+[2026-04-19T20:13:25.389+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-04-19T20:13:25.401+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,25 @@
+[2026-04-19T20:00:15.688+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_spam_pipeline.dbt_run manual__2026-04-19T07:03:38.664469+00:00 [queued]>
+[2026-04-19T20:00:15.694+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_spam_pipeline.dbt_run manual__2026-04-19T07:03:38.664469+00:00 [queued]>
+[2026-04-19T20:00:15.694+0000] {taskinstance.py:2170} INFO - Starting attempt 5 of 6
+[2026-04-19T20:00:15.702+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): dbt_run> on 2026-04-19 07:03:38.664469+00:00
+[2026-04-19T20:00:15.704+0000] {standard_task_runner.py:60} INFO - Started process 216 to run task
+[2026-04-19T20:00:15.707+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'dbt_spam_pipeline', 'dbt_run', 'manual__2026-04-19T07:03:38.664469+00:00', '--job-id', '288', '--raw', '--subdir', 'DAGS_FOLDER/dbt_dag.py', '--cfg-path', '/tmp/tmpglvmcyza']
+[2026-04-19T20:00:15.708+0000] {standard_task_runner.py:88} INFO - Job 288: Subtask dbt_run
+[2026-04-19T20:00:15.738+0000] {task_command.py:423} INFO - Running <TaskInstance: dbt_spam_pipeline.dbt_run manual__2026-04-19T07:03:38.664469+00:00 [running]> on host 200fc1c16217
+[2026-04-19T20:00:15.781+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dbt_spam_pipeline' AIRFLOW_CTX_TASK_ID='dbt_run' AIRFLOW_CTX_EXECUTION_DATE='2026-04-19T07:03:38.664469+00:00' AIRFLOW_CTX_TRY_NUMBER='5' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-19T07:03:38.664469+00:00'
+[2026-04-19T20:00:15.781+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-04-19T20:00:15.782+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '/root/.local/bin/dbt run --project-dir /opt/***/dags/spam_detection_dbt --profiles-dir /opt/***/dags/dbt_profiles']
+[2026-04-19T20:00:15.787+0000] {subprocess.py:86} INFO - Output:
+[2026-04-19T20:00:15.788+0000] {subprocess.py:93} INFO - /usr/bin/bash: line 1: /root/.local/bin/dbt: Permission denied
+[2026-04-19T20:00:15.788+0000] {subprocess.py:97} INFO - Command exited with return code 126
+[2026-04-19T20:00:15.795+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 212, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 126.
+[2026-04-19T20:00:15.797+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=dbt_spam_pipeline, task_id=dbt_run, execution_date=20260419T070338, start_date=20260419T200015, end_date=20260419T200015
+[2026-04-19T20:00:15.805+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 288 for task dbt_run (Bash command failed. The command returned a non-zero exit code 126.; 216)
+[2026-04-19T20:00:15.847+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-04-19T20:00:15.862+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

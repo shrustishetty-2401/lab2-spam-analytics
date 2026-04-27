@@ -1,0 +1,1181 @@
+[2026-04-21T00:02:29.476+0000] {processor.py:161} INFO - Started process (PID=92) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T00:02:29.477+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T00:02:29.479+0000] {logging_mixin.py:188} INFO - [2026-04-21T00:02:29.479+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T00:02:29.491+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T00:02:29.638+0000] {logging_mixin.py:188} INFO - [2026-04-21T00:02:29.637+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:dbt_spam_pipeline
+[2026-04-21T00:02:29.643+0000] {logging_mixin.py:188} INFO - [2026-04-21T00:02:29.643+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:dbt_spam_pipeline
+[2026-04-21T00:02:29.648+0000] {logging_mixin.py:188} INFO - [2026-04-21T00:02:29.647+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:dbt_spam_pipeline
+[2026-04-21T00:02:29.648+0000] {logging_mixin.py:188} INFO - [2026-04-21T00:02:29.648+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T00:02:29.655+0000] {logging_mixin.py:188} INFO - [2026-04-21T00:02:29.655+0000] {dag.py:3058} INFO - Creating ORM DAG for dbt_spam_pipeline
+[2026-04-21T00:02:29.663+0000] {logging_mixin.py:188} INFO - [2026-04-21T00:02:29.663+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T00:02:29.678+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.204 seconds
+[2026-04-21T00:02:59.764+0000] {processor.py:161} INFO - Started process (PID=109) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T00:02:59.765+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T00:02:59.766+0000] {logging_mixin.py:188} INFO - [2026-04-21T00:02:59.766+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T00:02:59.781+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T00:02:59.801+0000] {logging_mixin.py:188} INFO - [2026-04-21T00:02:59.801+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T00:02:59.813+0000] {logging_mixin.py:188} INFO - [2026-04-21T00:02:59.813+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T00:02:59.823+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.062 seconds
+[2026-04-21T00:03:30.522+0000] {processor.py:161} INFO - Started process (PID=125) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T00:03:30.525+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T00:03:30.526+0000] {logging_mixin.py:188} INFO - [2026-04-21T00:03:30.526+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T00:03:30.536+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T00:03:30.558+0000] {logging_mixin.py:188} INFO - [2026-04-21T00:03:30.558+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T00:03:30.571+0000] {logging_mixin.py:188} INFO - [2026-04-21T00:03:30.571+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T00:03:30.582+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.061 seconds
+[2026-04-21T00:04:58.167+0000] {processor.py:161} INFO - Started process (PID=142) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T00:04:58.168+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T00:04:58.169+0000] {logging_mixin.py:188} INFO - [2026-04-21T00:04:58.169+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T00:04:58.178+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T00:04:58.195+0000] {logging_mixin.py:188} INFO - [2026-04-21T00:04:58.195+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T00:04:58.210+0000] {logging_mixin.py:188} INFO - [2026-04-21T00:04:58.210+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T00:04:58.220+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.056 seconds
+[2026-04-21T00:37:32.205+0000] {processor.py:161} INFO - Started process (PID=158) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T00:37:32.206+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T00:37:32.208+0000] {logging_mixin.py:188} INFO - [2026-04-21T00:37:32.208+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T00:37:32.217+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T00:37:32.237+0000] {logging_mixin.py:188} INFO - [2026-04-21T00:37:32.236+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T00:37:32.253+0000] {logging_mixin.py:188} INFO - [2026-04-21T00:37:32.253+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T00:37:32.268+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.065 seconds
+[2026-04-21T04:00:28.849+0000] {processor.py:161} INFO - Started process (PID=174) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T04:00:28.850+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T04:00:28.851+0000] {logging_mixin.py:188} INFO - [2026-04-21T04:00:28.851+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T04:00:28.873+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T04:00:28.900+0000] {logging_mixin.py:188} INFO - [2026-04-21T04:00:28.900+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T04:00:28.924+0000] {logging_mixin.py:188} INFO - [2026-04-21T04:00:28.924+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T04:00:28.937+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.090 seconds
+[2026-04-21T05:06:53.983+0000] {processor.py:161} INFO - Started process (PID=190) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T05:06:53.984+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T05:06:53.986+0000] {logging_mixin.py:188} INFO - [2026-04-21T05:06:53.986+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T05:06:53.997+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T05:06:54.023+0000] {logging_mixin.py:188} INFO - [2026-04-21T05:06:54.023+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T05:06:54.045+0000] {logging_mixin.py:188} INFO - [2026-04-21T05:06:54.044+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T05:06:54.060+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.080 seconds
+[2026-04-21T05:59:03.126+0000] {processor.py:161} INFO - Started process (PID=206) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T05:59:03.127+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T05:59:03.129+0000] {logging_mixin.py:188} INFO - [2026-04-21T05:59:03.128+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T05:59:03.138+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T05:59:03.157+0000] {logging_mixin.py:188} INFO - [2026-04-21T05:59:03.157+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T05:59:03.172+0000] {logging_mixin.py:188} INFO - [2026-04-21T05:59:03.172+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T05:59:03.186+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.062 seconds
+[2026-04-21T05:59:33.886+0000] {processor.py:161} INFO - Started process (PID=222) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T05:59:33.887+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T05:59:33.889+0000] {logging_mixin.py:188} INFO - [2026-04-21T05:59:33.889+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T05:59:33.896+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T05:59:33.913+0000] {logging_mixin.py:188} INFO - [2026-04-21T05:59:33.913+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T05:59:33.928+0000] {logging_mixin.py:188} INFO - [2026-04-21T05:59:33.928+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T05:59:33.938+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.054 seconds
+[2026-04-21T06:00:04.574+0000] {processor.py:161} INFO - Started process (PID=238) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:00:04.574+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:00:04.576+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:00:04.576+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:00:04.584+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:00:04.604+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:00:04.604+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:00:04.619+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:00:04.619+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:00:04.631+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.060 seconds
+[2026-04-21T06:01:31.264+0000] {processor.py:161} INFO - Started process (PID=223) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:01:31.265+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:01:31.265+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:01:31.265+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:01:31.279+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:01:31.426+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:01:31.426+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:dbt_spam_pipeline
+[2026-04-21T06:01:31.433+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:01:31.433+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:dbt_spam_pipeline
+[2026-04-21T06:01:31.437+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:01:31.437+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:dbt_spam_pipeline
+[2026-04-21T06:01:31.438+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:01:31.437+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:01:31.444+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:01:31.444+0000] {dag.py:3058} INFO - Creating ORM DAG for dbt_spam_pipeline
+[2026-04-21T06:01:31.456+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:01:31.455+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:01:31.550+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.289 seconds
+[2026-04-21T06:02:02.332+0000] {processor.py:161} INFO - Started process (PID=266) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:02:02.333+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:02:02.335+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:02:02.334+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:02:02.344+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:02:02.361+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:02:02.361+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:02:02.375+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:02:02.375+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:02:02.385+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.055 seconds
+[2026-04-21T06:02:32.992+0000] {processor.py:161} INFO - Started process (PID=310) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:02:32.993+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:02:32.996+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:02:32.995+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:02:33.009+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:02:33.024+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:02:33.024+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:02:33.037+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:02:33.037+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:02:33.047+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.060 seconds
+[2026-04-21T06:03:03.645+0000] {processor.py:161} INFO - Started process (PID=354) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:03:03.648+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:03:03.650+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:03:03.650+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:03:03.663+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:03:03.685+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:03:03.685+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:03:03.697+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:03:03.697+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:03:03.707+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.067 seconds
+[2026-04-21T06:03:34.228+0000] {processor.py:161} INFO - Started process (PID=398) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:03:34.229+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:03:34.232+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:03:34.231+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:03:34.246+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:03:34.263+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:03:34.262+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:03:34.275+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:03:34.275+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:03:34.286+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.062 seconds
+[2026-04-21T06:04:04.956+0000] {processor.py:161} INFO - Started process (PID=442) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:04:04.956+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:04:04.958+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:04:04.958+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:04:04.968+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:04:04.989+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:04:04.989+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:04:05.005+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:04:05.005+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:04:05.019+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.067 seconds
+[2026-04-21T06:04:35.637+0000] {processor.py:161} INFO - Started process (PID=486) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:04:35.637+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:04:35.638+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:04:35.638+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:04:35.647+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:04:35.663+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:04:35.663+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:04:35.676+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:04:35.676+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:04:35.687+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.053 seconds
+[2026-04-21T06:05:06.292+0000] {processor.py:161} INFO - Started process (PID=530) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:05:06.292+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:05:06.294+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:05:06.293+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:05:06.301+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:05:06.318+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:05:06.318+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:05:06.333+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:05:06.332+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:05:06.345+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.056 seconds
+[2026-04-21T06:05:36.977+0000] {processor.py:161} INFO - Started process (PID=691) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:05:36.978+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:05:36.980+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:05:36.980+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:05:36.993+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:05:37.015+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:05:37.015+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:05:37.031+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:05:37.030+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:05:37.044+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.071 seconds
+[2026-04-21T06:06:07.552+0000] {processor.py:161} INFO - Started process (PID=735) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:06:07.553+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:06:07.555+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:06:07.555+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:06:07.565+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:06:07.583+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:06:07.582+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:06:07.596+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:06:07.595+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:06:07.605+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.056 seconds
+[2026-04-21T06:06:38.224+0000] {processor.py:161} INFO - Started process (PID=779) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:06:38.226+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:06:38.228+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:06:38.228+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:06:38.240+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:06:38.267+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:06:38.267+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:06:38.281+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:06:38.281+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:06:38.292+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.073 seconds
+[2026-04-21T06:07:08.900+0000] {processor.py:161} INFO - Started process (PID=823) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:07:08.901+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:07:08.902+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:07:08.902+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:07:08.909+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:07:08.928+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:07:08.927+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:07:08.941+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:07:08.941+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:07:08.953+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.055 seconds
+[2026-04-21T06:07:39.506+0000] {processor.py:161} INFO - Started process (PID=972) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:07:39.507+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:07:39.508+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:07:39.508+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:07:39.515+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:07:39.533+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:07:39.532+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:07:39.545+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:07:39.545+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:07:39.556+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.053 seconds
+[2026-04-21T06:08:10.033+0000] {processor.py:161} INFO - Started process (PID=1016) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:08:10.035+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:08:10.039+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:08:10.039+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:08:10.059+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:08:10.087+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:08:10.087+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:08:10.104+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:08:10.104+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:08:10.119+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.093 seconds
+[2026-04-21T06:09:02.078+0000] {processor.py:161} INFO - Started process (PID=222) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:09:02.078+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:09:02.079+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:09:02.079+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:09:02.092+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:09:02.232+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:09:02.231+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:dbt_spam_pipeline
+[2026-04-21T06:09:02.237+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:09:02.237+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:dbt_spam_pipeline
+[2026-04-21T06:09:02.242+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:09:02.241+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:dbt_spam_pipeline
+[2026-04-21T06:09:02.242+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:09:02.242+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:09:02.249+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:09:02.249+0000] {dag.py:3058} INFO - Creating ORM DAG for dbt_spam_pipeline
+[2026-04-21T06:09:02.257+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:09:02.256+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:09:02.268+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.192 seconds
+[2026-04-21T06:09:33.165+0000] {processor.py:161} INFO - Started process (PID=265) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:09:33.166+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:09:33.167+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:09:33.167+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:09:33.175+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:09:33.191+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:09:33.191+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:09:33.205+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:09:33.205+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:09:33.215+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.052 seconds
+[2026-04-21T06:10:03.814+0000] {processor.py:161} INFO - Started process (PID=309) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:10:03.815+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:10:03.817+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:10:03.817+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:10:03.828+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:10:03.847+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:10:03.846+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:10:03.859+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:10:03.859+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:10:03.869+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.059 seconds
+[2026-04-21T06:10:34.459+0000] {processor.py:161} INFO - Started process (PID=353) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:10:34.460+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:10:34.462+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:10:34.461+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:10:34.469+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:10:34.486+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:10:34.486+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:10:34.500+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:10:34.499+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:10:34.511+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.054 seconds
+[2026-04-21T06:11:05.078+0000] {processor.py:161} INFO - Started process (PID=514) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:11:05.079+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:11:05.080+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:11:05.080+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:11:05.089+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:11:05.105+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:11:05.105+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:11:05.118+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:11:05.118+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:11:05.128+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.053 seconds
+[2026-04-21T06:11:35.172+0000] {processor.py:161} INFO - Started process (PID=558) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:11:35.173+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:11:35.174+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:11:35.174+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:11:35.181+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:11:35.200+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:11:35.199+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:11:35.213+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:11:35.213+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:11:35.224+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.054 seconds
+[2026-04-21T06:12:05.253+0000] {processor.py:161} INFO - Started process (PID=602) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:12:05.254+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:12:05.255+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:12:05.255+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:12:05.263+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:12:05.280+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:12:05.280+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:12:05.293+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:12:05.293+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:12:05.304+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.054 seconds
+[2026-04-21T06:12:35.345+0000] {processor.py:161} INFO - Started process (PID=646) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:12:35.347+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:12:35.349+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:12:35.349+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:12:35.362+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:12:35.384+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:12:35.383+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:12:35.396+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:12:35.396+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:12:35.407+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.065 seconds
+[2026-04-21T06:13:05.442+0000] {processor.py:161} INFO - Started process (PID=795) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:13:05.443+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:13:05.445+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:13:05.445+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:13:05.455+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:13:05.472+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:13:05.472+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:13:05.484+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:13:05.484+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:13:05.495+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.056 seconds
+[2026-04-21T06:13:36.086+0000] {processor.py:161} INFO - Started process (PID=839) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:13:36.088+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:13:36.091+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:13:36.091+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:13:36.103+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:13:36.125+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:13:36.124+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:13:36.140+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:13:36.139+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:13:36.151+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.069 seconds
+[2026-04-21T06:14:06.624+0000] {processor.py:161} INFO - Started process (PID=883) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:14:06.625+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:14:06.629+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:14:06.627+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:14:06.640+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:14:06.662+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:14:06.661+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:14:06.674+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:14:06.674+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:14:06.685+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.065 seconds
+[2026-04-21T06:14:36.711+0000] {processor.py:161} INFO - Started process (PID=927) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:14:36.711+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:14:36.713+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:14:36.713+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:14:36.719+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:14:36.738+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:14:36.738+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:14:36.751+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:14:36.751+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:14:36.763+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.055 seconds
+[2026-04-21T06:15:06.828+0000] {processor.py:161} INFO - Started process (PID=985) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:15:06.829+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:15:06.832+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:15:06.832+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:15:06.844+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:15:06.868+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:15:06.868+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:15:06.881+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:15:06.881+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:15:06.891+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.068 seconds
+[2026-04-21T06:16:34.778+0000] {processor.py:161} INFO - Started process (PID=223) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:16:34.779+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:16:34.779+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:16:34.779+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:16:34.792+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:16:34.799+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:16:34.799+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:16:34.813+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:16:34.813+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:16:34.823+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.048 seconds
+[2026-04-21T06:17:05.665+0000] {processor.py:161} INFO - Started process (PID=264) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:17:05.666+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:17:05.667+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:17:05.667+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:17:05.682+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:17:05.748+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:17:05.748+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:17:05.760+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:17:05.760+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:17:05.771+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.108 seconds
+[2026-04-21T06:17:36.450+0000] {processor.py:161} INFO - Started process (PID=308) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:17:36.452+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:17:36.453+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:17:36.453+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:17:36.465+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:17:36.487+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:17:36.487+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:17:36.500+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:17:36.500+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:17:36.510+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.062 seconds
+[2026-04-21T06:18:07.166+0000] {processor.py:161} INFO - Started process (PID=352) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:18:07.167+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:18:07.170+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:18:07.170+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:18:07.182+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:18:07.207+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:18:07.207+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:18:07.221+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:18:07.221+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:18:07.232+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.069 seconds
+[2026-04-21T06:18:37.852+0000] {processor.py:161} INFO - Started process (PID=396) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:18:37.853+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:18:37.854+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:18:37.854+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:18:37.863+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:18:37.886+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:18:37.885+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:18:37.902+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:18:37.902+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:18:37.913+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.064 seconds
+[2026-04-21T06:19:08.476+0000] {processor.py:161} INFO - Started process (PID=440) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:19:08.477+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:19:08.479+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:19:08.478+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:19:08.489+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:19:08.512+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:19:08.511+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:19:08.525+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:19:08.525+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:19:08.536+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.063 seconds
+[2026-04-21T06:19:39.120+0000] {processor.py:161} INFO - Started process (PID=484) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:19:39.121+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:19:39.123+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:19:39.123+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:19:39.136+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:19:39.156+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:19:39.156+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:19:39.170+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:19:39.170+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:19:39.182+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.064 seconds
+[2026-04-21T06:20:09.830+0000] {processor.py:161} INFO - Started process (PID=528) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:20:09.832+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:20:09.834+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:20:09.834+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:20:09.844+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:20:09.867+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:20:09.867+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:20:09.881+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:20:09.881+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:20:09.891+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.064 seconds
+[2026-04-21T06:20:40.504+0000] {processor.py:161} INFO - Started process (PID=572) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:20:40.506+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:20:40.508+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:20:40.508+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:20:40.520+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:20:40.543+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:20:40.543+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:20:40.556+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:20:40.556+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:20:40.566+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.064 seconds
+[2026-04-21T06:21:11.150+0000] {processor.py:161} INFO - Started process (PID=616) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:21:11.152+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:21:11.154+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:21:11.153+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:21:11.163+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:21:11.185+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:21:11.184+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:21:11.197+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:21:11.197+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:21:11.207+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.060 seconds
+[2026-04-21T06:21:41.940+0000] {processor.py:161} INFO - Started process (PID=660) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:21:41.941+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:21:41.943+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:21:41.942+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:21:41.954+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:21:41.977+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:21:41.977+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:21:41.990+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:21:41.990+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:21:42.000+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.063 seconds
+[2026-04-21T06:22:12.049+0000] {processor.py:161} INFO - Started process (PID=706) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:22:12.049+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:22:12.051+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:22:12.050+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:22:12.058+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:22:12.075+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:22:12.075+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:22:12.089+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:22:12.088+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:22:12.099+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.053 seconds
+[2026-04-21T06:22:42.149+0000] {processor.py:161} INFO - Started process (PID=750) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:22:42.150+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:22:42.151+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:22:42.151+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:22:42.158+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:22:42.174+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:22:42.174+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:22:42.187+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:22:42.186+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:22:42.198+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.051 seconds
+[2026-04-21T06:23:12.333+0000] {processor.py:161} INFO - Started process (PID=792) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:23:12.334+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:23:12.337+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:23:12.337+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:23:12.345+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:23:12.368+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:23:12.368+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:23:12.381+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:23:12.381+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:23:12.391+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.061 seconds
+[2026-04-21T06:23:42.853+0000] {processor.py:161} INFO - Started process (PID=887) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:23:42.854+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:23:42.856+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:23:42.856+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:23:42.866+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:23:42.886+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:23:42.886+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:23:42.900+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:23:42.900+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:23:42.910+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.061 seconds
+[2026-04-21T06:24:13.361+0000] {processor.py:161} INFO - Started process (PID=982) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:24:13.362+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:24:13.365+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:24:13.364+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:24:13.377+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:24:13.399+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:24:13.399+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:24:13.412+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:24:13.412+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:24:13.423+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.064 seconds
+[2026-04-21T06:24:43.455+0000] {processor.py:161} INFO - Started process (PID=1026) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:24:43.457+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:24:43.459+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:24:43.459+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:24:43.473+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:24:43.501+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:24:43.500+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:24:43.517+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:24:43.517+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:24:43.529+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.077 seconds
+[2026-04-21T06:25:13.575+0000] {processor.py:161} INFO - Started process (PID=1070) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:25:13.576+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:25:13.581+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:25:13.581+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:25:13.593+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:25:13.617+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:25:13.617+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:25:13.630+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:25:13.630+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:25:13.641+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.068 seconds
+[2026-04-21T06:25:44.077+0000] {processor.py:161} INFO - Started process (PID=1153) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:25:44.078+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:25:44.080+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:25:44.080+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:25:44.091+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:25:44.113+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:25:44.113+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:25:44.127+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:25:44.127+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:25:44.137+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.063 seconds
+[2026-04-21T06:26:14.523+0000] {processor.py:161} INFO - Started process (PID=1236) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:26:14.524+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:26:14.527+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:26:14.527+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:26:14.539+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:26:14.560+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:26:14.560+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:26:14.575+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:26:14.575+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:26:14.585+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.064 seconds
+[2026-04-21T06:26:45.001+0000] {processor.py:161} INFO - Started process (PID=1280) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:26:45.002+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:26:45.004+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:26:45.004+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:26:45.015+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:26:45.038+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:26:45.038+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:26:45.051+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:26:45.051+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:26:45.063+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.064 seconds
+[2026-04-21T06:27:15.129+0000] {processor.py:161} INFO - Started process (PID=1324) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:27:15.130+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:27:15.132+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:27:15.132+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:27:15.143+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:27:15.165+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:27:15.165+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:27:15.178+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:27:15.178+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:27:15.189+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.063 seconds
+[2026-04-21T06:27:45.213+0000] {processor.py:161} INFO - Started process (PID=1368) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:27:45.217+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:27:45.218+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:27:45.218+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:27:45.229+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:27:45.253+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:27:45.253+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:27:45.266+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:27:45.265+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:27:45.276+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.065 seconds
+[2026-04-21T06:28:15.705+0000] {processor.py:161} INFO - Started process (PID=1412) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:28:15.706+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:28:15.709+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:28:15.709+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:28:15.718+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:28:15.740+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:28:15.739+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:28:15.753+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:28:15.753+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:28:15.762+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.059 seconds
+[2026-04-21T06:28:46.247+0000] {processor.py:161} INFO - Started process (PID=1456) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:28:46.248+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:28:46.252+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:28:46.251+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:28:46.265+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:28:46.288+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:28:46.288+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:28:46.301+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:28:46.301+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:28:46.310+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.067 seconds
+[2026-04-21T06:29:16.759+0000] {processor.py:161} INFO - Started process (PID=1500) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:29:16.762+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:29:16.763+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:29:16.763+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:29:16.775+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:29:16.800+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:29:16.800+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:29:16.814+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:29:16.814+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:29:16.824+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.067 seconds
+[2026-04-21T06:29:46.882+0000] {processor.py:161} INFO - Started process (PID=1544) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:29:46.883+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:29:46.885+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:29:46.885+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:29:46.901+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:29:46.923+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:29:46.922+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:29:46.936+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:29:46.936+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:29:46.945+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.067 seconds
+[2026-04-21T06:30:17.016+0000] {processor.py:161} INFO - Started process (PID=1588) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:30:17.017+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:30:17.022+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:30:17.021+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:30:17.041+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:30:17.067+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:30:17.067+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:30:17.081+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:30:17.081+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:30:17.091+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.079 seconds
+[2026-04-21T06:30:47.188+0000] {processor.py:161} INFO - Started process (PID=1632) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:30:47.189+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:30:47.193+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:30:47.192+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:30:47.209+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:30:47.233+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:30:47.233+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:30:47.247+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:30:47.247+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:30:47.258+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.074 seconds
+[2026-04-21T06:31:17.301+0000] {processor.py:161} INFO - Started process (PID=1678) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:31:17.301+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:31:17.303+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:31:17.303+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:31:17.311+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:31:17.329+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:31:17.329+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:31:17.348+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:31:17.348+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:31:17.359+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.062 seconds
+[2026-04-21T06:31:47.404+0000] {processor.py:161} INFO - Started process (PID=1784) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:31:47.405+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:31:47.406+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:31:47.406+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:31:47.415+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:31:47.432+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:31:47.432+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:31:47.447+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:31:47.446+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:31:47.459+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.058 seconds
+[2026-04-21T06:32:17.511+0000] {processor.py:161} INFO - Started process (PID=2014) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:32:17.513+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:32:17.514+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:32:17.514+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:32:17.522+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:32:17.541+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:32:17.541+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:32:17.557+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:32:17.557+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:32:17.571+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.066 seconds
+[2026-04-21T06:32:47.989+0000] {processor.py:161} INFO - Started process (PID=2056) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:32:47.989+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:32:47.993+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:32:47.992+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:32:48.004+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:32:48.026+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:32:48.026+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:32:48.039+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:32:48.039+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:32:48.049+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.063 seconds
+[2026-04-21T06:33:18.101+0000] {processor.py:161} INFO - Started process (PID=2102) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:33:18.102+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:33:18.103+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:33:18.103+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:33:18.110+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:33:18.126+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:33:18.126+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:33:18.140+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:33:18.140+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:33:18.151+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.053 seconds
+[2026-04-21T06:33:48.166+0000] {processor.py:161} INFO - Started process (PID=2146) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:33:48.167+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:33:48.168+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:33:48.168+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:33:48.175+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:33:48.191+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:33:48.191+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:33:48.204+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:33:48.203+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:33:48.214+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.051 seconds
+[2026-04-21T06:34:18.597+0000] {processor.py:161} INFO - Started process (PID=2398) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:34:18.598+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:34:18.603+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:34:18.603+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:34:18.616+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:34:18.640+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:34:18.640+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:34:18.653+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:34:18.652+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:34:18.663+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.069 seconds
+[2026-04-21T06:34:49.100+0000] {processor.py:161} INFO - Started process (PID=2442) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:34:49.103+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:34:49.104+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:34:49.104+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:34:49.116+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:34:49.141+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:34:49.141+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:34:49.154+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:34:49.154+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:34:49.164+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.066 seconds
+[2026-04-21T06:35:19.216+0000] {processor.py:161} INFO - Started process (PID=2488) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:35:19.217+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:35:19.219+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:35:19.219+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:35:19.225+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:35:19.241+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:35:19.241+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:35:19.254+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:35:19.253+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:35:19.264+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.050 seconds
+[2026-04-21T06:35:50.250+0000] {processor.py:161} INFO - Started process (PID=2532) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:35:50.251+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:35:50.252+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:35:50.252+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:35:50.260+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:35:50.279+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:35:50.278+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:35:50.292+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:35:50.292+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:35:50.303+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.055 seconds
+[2026-04-21T06:36:20.752+0000] {processor.py:161} INFO - Started process (PID=2576) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:36:20.753+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:36:20.755+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:36:20.755+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:36:20.763+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:36:20.780+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:36:20.780+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:36:20.793+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:36:20.793+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:36:20.803+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.053 seconds
+[2026-04-21T06:36:51.240+0000] {processor.py:161} INFO - Started process (PID=2620) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:36:51.241+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:36:51.242+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:36:51.242+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:36:51.249+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:36:51.265+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:36:51.265+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:36:51.278+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:36:51.278+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:36:51.291+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.053 seconds
+[2026-04-21T06:37:21.336+0000] {processor.py:161} INFO - Started process (PID=2664) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:37:21.336+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:37:21.338+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:37:21.338+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:37:21.349+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:37:21.372+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:37:21.372+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:37:21.385+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:37:21.385+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:37:21.395+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.063 seconds
+[2026-04-21T06:37:51.418+0000] {processor.py:161} INFO - Started process (PID=2708) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:37:51.418+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:37:51.419+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:37:51.419+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:37:51.426+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:37:51.442+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:37:51.442+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:37:51.455+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:37:51.455+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:37:51.467+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.052 seconds
+[2026-04-21T06:38:21.910+0000] {processor.py:161} INFO - Started process (PID=2752) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:38:21.911+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:38:21.913+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:38:21.913+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:38:21.925+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:38:21.943+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:38:21.943+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:38:21.955+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:38:21.955+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:38:21.966+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.060 seconds
+[2026-04-21T06:38:52.402+0000] {processor.py:161} INFO - Started process (PID=2796) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:38:52.403+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:38:52.404+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:38:52.404+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:38:52.412+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:38:52.430+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:38:52.429+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:38:52.443+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:38:52.443+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:38:52.454+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.054 seconds
+[2026-04-21T06:39:22.937+0000] {processor.py:161} INFO - Started process (PID=2840) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:39:22.938+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:39:22.940+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:39:22.940+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:39:22.952+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:39:22.974+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:39:22.974+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:39:22.986+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:39:22.986+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:39:22.997+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.065 seconds
+[2026-04-21T06:39:53.065+0000] {processor.py:161} INFO - Started process (PID=2884) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:39:53.067+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:39:53.069+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:39:53.068+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:39:53.081+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:39:53.103+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:39:53.103+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:39:53.118+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:39:53.118+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:39:53.129+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.068 seconds
+[2026-04-21T06:40:24.085+0000] {processor.py:161} INFO - Started process (PID=2928) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:40:24.086+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:40:24.088+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:40:24.087+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:40:24.098+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:40:24.116+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:40:24.116+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:40:24.129+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:40:24.129+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:40:24.140+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.058 seconds
+[2026-04-21T06:40:54.190+0000] {processor.py:161} INFO - Started process (PID=2972) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:40:54.190+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:40:54.192+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:40:54.191+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:40:54.201+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:40:54.219+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:40:54.219+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:40:54.233+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:40:54.233+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:40:54.244+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.057 seconds
+[2026-04-21T06:41:24.302+0000] {processor.py:161} INFO - Started process (PID=3016) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:41:24.302+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:41:24.304+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:41:24.304+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:41:24.311+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:41:24.328+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:41:24.328+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:41:24.341+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:41:24.341+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:41:24.352+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.053 seconds
+[2026-04-21T06:41:54.845+0000] {processor.py:161} INFO - Started process (PID=3060) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:41:54.845+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:41:54.847+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:41:54.846+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:41:54.854+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:41:54.871+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:41:54.871+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:41:54.885+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:41:54.885+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:41:54.896+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.054 seconds
+[2026-04-21T06:42:24.927+0000] {processor.py:161} INFO - Started process (PID=3104) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:42:24.927+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:42:24.929+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:42:24.928+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:42:24.936+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:42:24.953+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:42:24.952+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:42:24.966+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:42:24.966+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:42:24.977+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.052 seconds
+[2026-04-21T06:42:55.608+0000] {processor.py:161} INFO - Started process (PID=3137) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:42:55.609+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:42:55.613+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:42:55.613+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:42:55.624+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:42:55.641+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:42:55.641+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:42:55.654+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:42:55.654+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:42:55.665+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.060 seconds
+[2026-04-21T06:43:25.728+0000] {processor.py:161} INFO - Started process (PID=3178) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:43:25.730+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:43:25.733+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:43:25.733+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:43:25.740+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:43:25.757+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:43:25.756+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:43:25.770+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:43:25.769+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:43:25.780+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.055 seconds
+[2026-04-21T06:43:55.832+0000] {processor.py:161} INFO - Started process (PID=3222) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:43:55.833+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:43:55.835+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:43:55.835+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:43:55.845+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:43:55.862+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:43:55.861+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:43:55.874+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:43:55.874+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:43:55.884+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.055 seconds
+[2026-04-21T06:44:25.979+0000] {processor.py:161} INFO - Started process (PID=3266) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:44:25.980+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:44:25.985+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:44:25.985+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:44:25.998+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:44:26.020+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:44:26.020+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:44:26.033+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:44:26.033+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:44:26.044+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.069 seconds
+[2026-04-21T06:44:56.121+0000] {processor.py:161} INFO - Started process (PID=3310) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:44:56.122+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:44:56.128+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:44:56.128+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:44:56.140+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:44:56.160+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:44:56.160+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:44:56.173+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:44:56.173+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:44:56.184+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.068 seconds
+[2026-04-21T06:45:26.280+0000] {processor.py:161} INFO - Started process (PID=3354) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:45:26.282+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:45:26.285+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:45:26.284+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:45:26.297+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:45:26.319+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:45:26.319+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:45:26.332+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:45:26.332+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:45:26.343+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.067 seconds
+[2026-04-21T06:45:56.404+0000] {processor.py:161} INFO - Started process (PID=3398) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:45:56.405+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:45:56.407+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:45:56.406+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:45:56.415+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:45:56.432+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:45:56.432+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:45:56.445+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:45:56.445+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:45:56.456+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.055 seconds
+[2026-04-21T06:46:27.143+0000] {processor.py:161} INFO - Started process (PID=3442) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:46:27.144+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:46:27.147+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:46:27.146+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:46:27.160+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:46:27.181+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:46:27.181+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:46:27.194+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:46:27.194+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:46:27.205+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.066 seconds
+[2026-04-21T06:46:57.939+0000] {processor.py:161} INFO - Started process (PID=3486) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:46:57.940+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:46:57.941+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:46:57.941+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:46:57.954+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:46:57.974+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:46:57.974+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:46:57.986+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:46:57.986+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:46:57.996+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.061 seconds
+[2026-04-21T06:47:28.670+0000] {processor.py:161} INFO - Started process (PID=3530) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:47:28.671+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:47:28.674+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:47:28.674+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:47:28.686+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:47:28.710+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:47:28.710+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:47:28.724+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:47:28.724+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:47:28.734+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.070 seconds
+[2026-04-21T06:51:09.484+0000] {processor.py:161} INFO - Started process (PID=223) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:51:09.485+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:51:09.486+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:51:09.486+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:51:09.497+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:51:09.505+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:51:09.505+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:51:09.519+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:51:09.519+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:51:09.530+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.047 seconds
+[2026-04-21T06:51:40.274+0000] {processor.py:161} INFO - Started process (PID=264) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:51:40.275+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:51:40.278+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:51:40.278+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:51:40.295+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:51:40.367+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:51:40.367+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:51:40.379+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:51:40.379+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:51:40.392+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.122 seconds
+[2026-04-21T06:52:11.067+0000] {processor.py:161} INFO - Started process (PID=542) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:52:11.068+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:52:11.070+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:52:11.069+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:52:11.078+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:52:11.101+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:52:11.101+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:52:11.114+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:52:11.114+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:52:11.123+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.059 seconds
+[2026-04-21T06:52:41.725+0000] {processor.py:161} INFO - Started process (PID=586) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:52:41.726+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:52:41.728+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:52:41.728+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:52:41.738+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:52:41.766+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:52:41.765+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:52:41.779+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:52:41.779+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:52:41.790+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.067 seconds
+[2026-04-21T06:53:12.443+0000] {processor.py:161} INFO - Started process (PID=630) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:53:12.444+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:53:12.446+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:53:12.445+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:53:12.454+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:53:12.473+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:53:12.473+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:53:12.488+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:53:12.488+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:53:12.498+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.058 seconds
+[2026-04-21T06:53:43.060+0000] {processor.py:161} INFO - Started process (PID=674) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:53:43.062+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:53:43.064+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:53:43.063+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:53:43.072+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:53:43.090+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:53:43.090+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:53:43.103+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:53:43.103+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:53:43.113+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.055 seconds
+[2026-04-21T06:54:13.685+0000] {processor.py:161} INFO - Started process (PID=928) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:54:13.686+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:54:13.688+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:54:13.687+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:54:13.700+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:54:13.724+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:54:13.724+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:54:13.737+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:54:13.737+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:54:13.746+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.064 seconds
+[2026-04-21T06:54:44.345+0000] {processor.py:161} INFO - Started process (PID=972) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:54:44.346+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:54:44.348+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:54:44.348+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:54:44.359+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:54:44.383+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:54:44.383+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:54:44.397+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:54:44.397+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:54:44.408+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.065 seconds
+[2026-04-21T06:55:15.040+0000] {processor.py:161} INFO - Started process (PID=1016) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:55:15.042+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:55:15.044+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:55:15.043+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:55:15.055+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:55:15.080+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:55:15.080+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:55:15.093+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:55:15.093+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:55:15.103+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.066 seconds
+[2026-04-21T06:55:45.673+0000] {processor.py:161} INFO - Started process (PID=1060) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:55:45.676+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:55:45.677+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:55:45.677+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:55:45.688+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:55:45.714+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:55:45.714+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:55:45.728+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:55:45.727+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:55:45.738+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.067 seconds
+[2026-04-21T06:56:16.347+0000] {processor.py:161} INFO - Started process (PID=1104) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:56:16.348+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:56:16.351+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:56:16.351+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:56:16.364+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:56:16.387+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:56:16.387+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:56:16.401+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:56:16.400+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:56:16.410+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.067 seconds
+[2026-04-21T06:56:47.097+0000] {processor.py:161} INFO - Started process (PID=1148) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:56:47.098+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:56:47.102+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:56:47.101+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:56:47.113+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:56:47.139+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:56:47.139+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:56:47.152+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:56:47.152+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:56:47.163+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.069 seconds
+[2026-04-21T06:57:17.764+0000] {processor.py:161} INFO - Started process (PID=1192) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:57:17.764+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:57:17.766+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:57:17.766+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:57:17.776+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:57:17.797+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:57:17.796+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:57:17.811+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:57:17.811+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:57:17.822+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.061 seconds
+[2026-04-21T06:57:48.418+0000] {processor.py:161} INFO - Started process (PID=1236) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:57:48.419+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:57:48.421+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:57:48.421+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:57:48.432+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:57:48.451+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:57:48.451+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:57:48.464+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:57:48.464+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:57:48.474+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.059 seconds
+[2026-04-21T06:58:19.143+0000] {processor.py:161} INFO - Started process (PID=1280) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:58:19.144+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:58:19.146+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:58:19.146+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:58:19.157+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:58:19.178+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:58:19.178+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:58:19.191+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:58:19.191+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:58:19.201+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.061 seconds
+[2026-04-21T06:58:49.886+0000] {processor.py:161} INFO - Started process (PID=1324) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:58:49.887+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:58:49.889+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:58:49.889+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:58:49.900+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:58:49.924+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:58:49.923+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:58:49.937+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:58:49.937+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:58:49.949+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.064 seconds
+[2026-04-21T06:59:20.559+0000] {processor.py:161} INFO - Started process (PID=1368) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:59:20.559+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:59:20.561+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:59:20.560+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:59:20.571+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:59:20.593+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:59:20.593+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:59:20.607+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:59:20.607+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:59:20.618+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.061 seconds
+[2026-04-21T06:59:51.215+0000] {processor.py:161} INFO - Started process (PID=1412) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:59:51.218+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T06:59:51.220+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:59:51.220+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:59:51.230+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T06:59:51.250+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:59:51.249+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T06:59:51.262+0000] {logging_mixin.py:188} INFO - [2026-04-21T06:59:51.262+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T06:59:51.272+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.059 seconds
+[2026-04-21T07:00:21.952+0000] {processor.py:161} INFO - Started process (PID=1456) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:00:21.953+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T07:00:21.956+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:00:21.955+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:00:21.967+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:00:21.988+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:00:21.988+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T07:00:22.001+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:00:22.001+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T07:00:22.013+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.064 seconds
+[2026-04-21T07:00:52.674+0000] {processor.py:161} INFO - Started process (PID=1500) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:00:52.676+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T07:00:52.678+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:00:52.677+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:00:52.689+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:00:52.712+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:00:52.712+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T07:00:52.727+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:00:52.726+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T07:00:52.740+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.069 seconds
+[2026-04-21T07:01:23.363+0000] {processor.py:161} INFO - Started process (PID=1544) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:01:23.364+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T07:01:23.367+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:01:23.366+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:01:23.378+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:01:23.402+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:01:23.402+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T07:01:23.415+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:01:23.415+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T07:01:23.425+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.064 seconds
+[2026-04-21T07:02:55.430+0000] {processor.py:161} INFO - Started process (PID=213) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:02:55.431+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T07:02:55.432+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:02:55.432+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:02:55.439+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:02:55.447+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:02:55.447+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T07:02:55.460+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:02:55.460+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T07:02:55.471+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.043 seconds
+[2026-04-21T07:03:25.519+0000] {processor.py:161} INFO - Started process (PID=256) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:03:25.520+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T07:03:25.521+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:03:25.521+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:03:25.528+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:03:25.588+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:03:25.588+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T07:03:25.600+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:03:25.599+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T07:03:25.611+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.094 seconds
+[2026-04-21T07:03:56.211+0000] {processor.py:161} INFO - Started process (PID=298) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:03:56.211+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T07:03:56.213+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:03:56.213+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:03:56.225+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:03:56.245+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:03:56.245+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T07:03:56.258+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:03:56.258+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T07:03:56.269+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.061 seconds
+[2026-04-21T07:04:26.842+0000] {processor.py:161} INFO - Started process (PID=342) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:04:26.844+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T07:04:26.845+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:04:26.845+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:04:26.855+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:04:26.877+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:04:26.876+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T07:04:26.890+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:04:26.890+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T07:04:26.900+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.061 seconds
+[2026-04-21T07:04:57.488+0000] {processor.py:161} INFO - Started process (PID=386) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:04:57.488+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T07:04:57.490+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:04:57.489+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:04:57.505+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:04:57.526+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:04:57.526+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T07:04:57.540+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:04:57.539+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T07:04:57.550+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.065 seconds
+[2026-04-21T07:05:28.192+0000] {processor.py:161} INFO - Started process (PID=430) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:05:28.193+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T07:05:28.195+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:05:28.195+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:05:28.206+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:05:28.228+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:05:28.228+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T07:05:28.242+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:05:28.242+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T07:05:28.252+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.063 seconds
+[2026-04-21T07:05:58.871+0000] {processor.py:161} INFO - Started process (PID=474) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:05:58.872+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T07:05:58.876+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:05:58.875+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:05:58.885+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:05:58.905+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:05:58.905+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T07:05:58.922+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:05:58.922+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T07:05:58.932+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.064 seconds
+[2026-04-21T07:06:29.552+0000] {processor.py:161} INFO - Started process (PID=518) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:06:29.553+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T07:06:29.555+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:06:29.555+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:06:29.565+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:06:29.590+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:06:29.590+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T07:06:29.603+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:06:29.603+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T07:06:29.613+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.064 seconds
+[2026-04-21T07:07:00.194+0000] {processor.py:161} INFO - Started process (PID=562) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:07:00.195+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T07:07:00.197+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:07:00.197+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:07:00.207+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:07:00.232+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:07:00.231+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T07:07:00.247+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:07:00.246+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T07:07:00.259+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.068 seconds
+[2026-04-21T07:07:30.873+0000] {processor.py:161} INFO - Started process (PID=606) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:07:30.874+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T07:07:30.876+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:07:30.876+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:07:30.886+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:07:30.910+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:07:30.909+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T07:07:30.924+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:07:30.923+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T07:07:30.934+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.063 seconds
+[2026-04-21T07:08:01.526+0000] {processor.py:161} INFO - Started process (PID=650) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:08:01.527+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T07:08:01.529+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:08:01.528+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:08:01.538+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:08:01.557+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:08:01.556+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T07:08:01.571+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:08:01.571+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T07:08:01.583+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.060 seconds
+[2026-04-21T07:08:32.173+0000] {processor.py:161} INFO - Started process (PID=811) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:08:32.174+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T07:08:32.175+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:08:32.175+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:08:32.184+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:08:32.207+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:08:32.207+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T07:08:32.221+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:08:32.221+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T07:08:32.234+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.063 seconds
+[2026-04-21T07:09:02.797+0000] {processor.py:161} INFO - Started process (PID=1161) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:09:02.798+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T07:09:02.799+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:09:02.799+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:09:02.807+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:09:02.825+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:09:02.825+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T07:09:02.839+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:09:02.839+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T07:09:02.850+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.055 seconds
+[2026-04-21T07:09:33.501+0000] {processor.py:161} INFO - Started process (PID=1205) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:09:33.502+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T07:09:33.504+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:09:33.503+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:09:33.513+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:09:33.535+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:09:33.535+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T07:09:33.548+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:09:33.548+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T07:09:33.561+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.061 seconds
+[2026-04-21T07:10:04.190+0000] {processor.py:161} INFO - Started process (PID=1249) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:10:04.192+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T07:10:04.194+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:10:04.194+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:10:04.204+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:10:04.231+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:10:04.231+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T07:10:04.246+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:10:04.246+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T07:10:04.258+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.072 seconds
+[2026-04-21T07:10:34.864+0000] {processor.py:161} INFO - Started process (PID=1293) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:10:34.867+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T07:10:34.868+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:10:34.868+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:10:34.879+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:10:34.903+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:10:34.903+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T07:10:34.917+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:10:34.916+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T07:10:34.927+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.065 seconds
+[2026-04-21T07:11:05.550+0000] {processor.py:161} INFO - Started process (PID=1337) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:11:05.552+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T07:11:05.554+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:11:05.554+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:11:05.563+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:11:05.584+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:11:05.584+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T07:11:05.598+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:11:05.598+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T07:11:05.608+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.060 seconds
+[2026-04-21T07:11:36.146+0000] {processor.py:161} INFO - Started process (PID=1381) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:11:36.147+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T07:11:36.149+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:11:36.149+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:11:36.161+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:11:36.181+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:11:36.181+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T07:11:36.196+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:11:36.196+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T07:11:36.207+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.064 seconds
+[2026-04-21T07:12:06.799+0000] {processor.py:161} INFO - Started process (PID=1425) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:12:06.800+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T07:12:06.802+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:12:06.801+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:12:06.814+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:12:06.838+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:12:06.837+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T07:12:06.852+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:12:06.852+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T07:12:06.862+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.066 seconds
+[2026-04-21T07:12:37.473+0000] {processor.py:161} INFO - Started process (PID=1469) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:12:37.474+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T07:12:37.476+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:12:37.476+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:12:37.485+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:12:37.509+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:12:37.508+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T07:12:37.522+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:12:37.522+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T07:12:37.533+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.062 seconds
+[2026-04-21T07:13:08.142+0000] {processor.py:161} INFO - Started process (PID=1513) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:13:08.143+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T07:13:08.145+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:13:08.145+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:13:08.155+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:13:08.179+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:13:08.179+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T07:13:08.193+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:13:08.193+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T07:13:08.204+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.064 seconds
+[2026-04-21T07:13:38.838+0000] {processor.py:161} INFO - Started process (PID=1557) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:13:38.840+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T07:13:38.841+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:13:38.841+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:13:38.853+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:13:38.876+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:13:38.875+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T07:13:38.891+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:13:38.891+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T07:13:38.904+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.069 seconds
+[2026-04-21T07:14:09.483+0000] {processor.py:161} INFO - Started process (PID=1601) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:14:09.484+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T07:14:09.486+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:14:09.485+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:14:09.496+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:14:09.518+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:14:09.518+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T07:14:09.531+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:14:09.531+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T07:14:09.542+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.061 seconds
+[2026-04-21T07:14:40.085+0000] {processor.py:161} INFO - Started process (PID=1645) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:14:40.087+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T07:14:40.089+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:14:40.088+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:14:40.099+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:14:40.121+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:14:40.121+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T07:14:40.134+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:14:40.134+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T07:14:40.145+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.062 seconds
+[2026-04-21T07:15:10.223+0000] {processor.py:161} INFO - Started process (PID=1689) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:15:10.225+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T07:15:10.227+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:15:10.226+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:15:10.237+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:15:10.262+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:15:10.262+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T07:15:10.276+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:15:10.276+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T07:15:10.286+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.065 seconds
+[2026-04-21T07:15:40.738+0000] {processor.py:161} INFO - Started process (PID=1733) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:15:40.739+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T07:15:40.742+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:15:40.741+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:15:40.750+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:15:40.777+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:15:40.777+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T07:15:40.790+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:15:40.790+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T07:15:40.800+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.064 seconds
+[2026-04-21T07:16:10.940+0000] {processor.py:161} INFO - Started process (PID=1777) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:16:10.941+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T07:16:10.943+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:16:10.943+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:16:10.954+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:16:10.983+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:16:10.983+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T07:16:10.998+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:16:10.997+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T07:16:11.010+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.073 seconds
+[2026-04-21T07:16:41.423+0000] {processor.py:161} INFO - Started process (PID=1821) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:16:41.425+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T07:16:41.426+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:16:41.426+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:16:41.436+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:16:41.460+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:16:41.460+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T07:16:41.473+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:16:41.473+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T07:16:41.484+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.063 seconds
+[2026-04-21T07:17:11.922+0000] {processor.py:161} INFO - Started process (PID=1865) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:17:11.924+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T07:17:11.925+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:17:11.925+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:17:11.937+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:17:11.961+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:17:11.961+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T07:17:11.977+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:17:11.977+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T07:17:11.990+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.070 seconds
+[2026-04-21T07:17:42.098+0000] {processor.py:161} INFO - Started process (PID=1909) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:17:42.100+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T07:17:42.102+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:17:42.102+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:17:42.111+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:17:42.133+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:17:42.133+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T07:17:42.146+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:17:42.146+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T07:17:42.157+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.061 seconds
+[2026-04-21T07:18:12.619+0000] {processor.py:161} INFO - Started process (PID=1953) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:18:12.620+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T07:18:12.621+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:18:12.621+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:18:12.632+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:18:12.656+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:18:12.656+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T07:18:12.670+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:18:12.669+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T07:18:12.680+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.064 seconds
+[2026-04-21T07:18:42.709+0000] {processor.py:161} INFO - Started process (PID=1997) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:18:42.710+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T07:18:42.714+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:18:42.713+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:18:42.724+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:18:42.746+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:18:42.745+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T07:18:42.759+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:18:42.759+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T07:18:42.775+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.068 seconds
+[2026-04-21T07:19:13.242+0000] {processor.py:161} INFO - Started process (PID=2041) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:19:13.243+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T07:19:13.247+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:19:13.247+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:19:13.257+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:19:13.281+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:19:13.281+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T07:19:13.294+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:19:13.294+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T07:19:13.304+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.065 seconds
+[2026-04-21T07:19:43.387+0000] {processor.py:161} INFO - Started process (PID=2087) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:19:43.388+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T07:19:43.391+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:19:43.391+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:19:43.401+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:19:43.426+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:19:43.426+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T07:19:43.439+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:19:43.439+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T07:19:43.450+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.068 seconds
+[2026-04-21T07:20:14.406+0000] {processor.py:161} INFO - Started process (PID=2131) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:20:14.408+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T07:20:14.410+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:20:14.410+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:20:14.420+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:20:14.437+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:20:14.437+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T07:20:14.450+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:20:14.450+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T07:20:14.462+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.059 seconds
+[2026-04-21T07:20:44.508+0000] {processor.py:161} INFO - Started process (PID=2175) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:20:44.509+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T07:20:44.515+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:20:44.514+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:20:44.528+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:20:44.545+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:20:44.545+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T07:20:44.558+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:20:44.558+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T07:20:44.569+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.066 seconds
+[2026-04-21T07:21:15.149+0000] {processor.py:161} INFO - Started process (PID=2219) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:21:15.151+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T07:21:15.153+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:21:15.152+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:21:15.165+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T07:21:15.195+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:21:15.194+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T07:21:15.214+0000] {logging_mixin.py:188} INFO - [2026-04-21T07:21:15.214+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T07:21:15.230+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.085 seconds
+[2026-04-21T08:38:10.982+0000] {processor.py:161} INFO - Started process (PID=2268) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T08:38:10.983+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T08:38:10.984+0000] {logging_mixin.py:188} INFO - [2026-04-21T08:38:10.984+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T08:38:10.992+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T08:38:11.024+0000] {logging_mixin.py:188} INFO - [2026-04-21T08:38:11.024+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T08:38:11.049+0000] {logging_mixin.py:188} INFO - [2026-04-21T08:38:11.049+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T08:38:11.073+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.094 seconds
+[2026-04-21T10:58:57.931+0000] {processor.py:161} INFO - Started process (PID=2312) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T10:58:57.932+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T10:58:57.934+0000] {logging_mixin.py:188} INFO - [2026-04-21T10:58:57.934+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T10:58:57.944+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T10:58:57.963+0000] {logging_mixin.py:188} INFO - [2026-04-21T10:58:57.963+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T10:58:57.980+0000] {logging_mixin.py:188} INFO - [2026-04-21T10:58:57.980+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T10:58:57.994+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.067 seconds
+[2026-04-21T13:19:54.807+0000] {processor.py:161} INFO - Started process (PID=2358) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T13:19:54.814+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T13:19:54.832+0000] {logging_mixin.py:188} INFO - [2026-04-21T13:19:54.831+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T13:19:54.947+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T13:19:55.027+0000] {logging_mixin.py:188} INFO - [2026-04-21T13:19:55.027+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T13:19:55.107+0000] {logging_mixin.py:188} INFO - [2026-04-21T13:19:55.106+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T13:19:55.226+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.424 seconds
+[2026-04-21T16:07:22.051+0000] {processor.py:161} INFO - Started process (PID=2402) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T16:07:22.052+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T16:07:22.055+0000] {logging_mixin.py:188} INFO - [2026-04-21T16:07:22.054+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T16:07:22.070+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T16:07:22.100+0000] {logging_mixin.py:188} INFO - [2026-04-21T16:07:22.100+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T16:07:22.118+0000] {logging_mixin.py:188} INFO - [2026-04-21T16:07:22.118+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T16:07:22.133+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.085 seconds
+[2026-04-21T16:57:58.801+0000] {processor.py:161} INFO - Started process (PID=2446) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T16:57:58.801+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T16:57:58.803+0000] {logging_mixin.py:188} INFO - [2026-04-21T16:57:58.803+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T16:57:58.811+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T16:57:58.828+0000] {logging_mixin.py:188} INFO - [2026-04-21T16:57:58.828+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T16:57:58.843+0000] {logging_mixin.py:188} INFO - [2026-04-21T16:57:58.843+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T16:57:58.856+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.058 seconds
+[2026-04-21T18:23:56.670+0000] {processor.py:161} INFO - Started process (PID=2499) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T18:23:56.672+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T18:23:56.676+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:23:56.676+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T18:23:56.706+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T18:23:56.788+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:23:56.788+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T18:23:56.824+0000] {logging_mixin.py:188} INFO - [2026-04-21T18:23:56.823+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T18:23:56.862+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.198 seconds
+[2026-04-21T19:24:50.343+0000] {processor.py:161} INFO - Started process (PID=2534) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T19:24:50.344+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T19:24:50.345+0000] {logging_mixin.py:188} INFO - [2026-04-21T19:24:50.345+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T19:24:50.353+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T19:24:50.369+0000] {logging_mixin.py:188} INFO - [2026-04-21T19:24:50.369+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T19:24:50.383+0000] {logging_mixin.py:188} INFO - [2026-04-21T19:24:50.383+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T19:24:50.394+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.052 seconds
+[2026-04-21T21:26:51.209+0000] {processor.py:161} INFO - Started process (PID=2580) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T21:26:51.210+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T21:26:51.211+0000] {logging_mixin.py:188} INFO - [2026-04-21T21:26:51.211+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T21:26:51.219+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T21:26:51.237+0000] {logging_mixin.py:188} INFO - [2026-04-21T21:26:51.237+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T21:26:51.252+0000] {logging_mixin.py:188} INFO - [2026-04-21T21:26:51.251+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T21:26:51.264+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.058 seconds
+[2026-04-21T22:15:08.012+0000] {processor.py:161} INFO - Started process (PID=2626) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T22:15:08.013+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T22:15:08.014+0000] {logging_mixin.py:188} INFO - [2026-04-21T22:15:08.014+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T22:15:08.022+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T22:15:08.039+0000] {logging_mixin.py:188} INFO - [2026-04-21T22:15:08.039+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T22:15:08.053+0000] {logging_mixin.py:188} INFO - [2026-04-21T22:15:08.053+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T22:15:08.065+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.055 seconds
+[2026-04-21T22:53:41.907+0000] {processor.py:161} INFO - Started process (PID=2670) to work on /opt/airflow/dags/dbt_dag.py
+[2026-04-21T22:53:41.907+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dbt_dag.py for tasks to queue
+[2026-04-21T22:53:41.909+0000] {logging_mixin.py:188} INFO - [2026-04-21T22:53:41.909+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T22:53:41.919+0000] {processor.py:840} INFO - DAG(s) 'dbt_spam_pipeline' retrieved from /opt/airflow/dags/dbt_dag.py
+[2026-04-21T22:53:41.948+0000] {logging_mixin.py:188} INFO - [2026-04-21T22:53:41.948+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-21T22:53:41.963+0000] {logging_mixin.py:188} INFO - [2026-04-21T22:53:41.963+0000] {dag.py:3823} INFO - Setting next_dagrun for dbt_spam_pipeline to 2026-04-20 00:00:00+00:00, run_after=2026-04-21 00:00:00+00:00
+[2026-04-21T22:53:41.977+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dbt_dag.py took 0.073 seconds

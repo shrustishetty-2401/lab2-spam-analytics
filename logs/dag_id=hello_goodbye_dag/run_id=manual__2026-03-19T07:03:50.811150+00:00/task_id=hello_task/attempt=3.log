@@ -1,0 +1,15 @@
+[2026-03-19T07:10:33.031+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hello_goodbye_dag.hello_task manual__2026-03-19T07:03:50.811150+00:00 [queued]>
+[2026-03-19T07:10:33.036+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hello_goodbye_dag.hello_task manual__2026-03-19T07:03:50.811150+00:00 [queued]>
+[2026-03-19T07:10:33.037+0000] {taskinstance.py:2170} INFO - Starting attempt 3 of 3
+[2026-03-19T07:10:33.045+0000] {taskinstance.py:2191} INFO - Executing <Task(DockerOperator): hello_task> on 2026-03-19 07:03:50.811150+00:00
+[2026-03-19T07:10:33.047+0000] {standard_task_runner.py:60} INFO - Started process 54 to run task
+[2026-03-19T07:10:33.050+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'hello_goodbye_dag', 'hello_task', 'manual__2026-03-19T07:03:50.811150+00:00', '--job-id', '190', '--raw', '--subdir', 'DAGS_FOLDER/hello_goodbye_dag.py', '--cfg-path', '/tmp/tmp_jpt6kyz']
+[2026-03-19T07:10:33.051+0000] {standard_task_runner.py:88} INFO - Job 190: Subtask hello_task
+[2026-03-19T07:10:33.081+0000] {task_command.py:423} INFO - Running <TaskInstance: hello_goodbye_dag.hello_task manual__2026-03-19T07:03:50.811150+00:00 [running]> on host 4589d7dcd571
+[2026-03-19T07:10:33.126+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='hello_goodbye_dag' AIRFLOW_CTX_TASK_ID='hello_task' AIRFLOW_CTX_EXECUTION_DATE='2026-03-19T07:03:50.811150+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-19T07:03:50.811150+00:00'
+[2026-03-19T07:10:33.162+0000] {docker.py:359} INFO - Starting docker container from image hello-img
+[2026-03-19T07:10:33.166+0000] {docker.py:367} WARNING - Using remote engine or docker-in-docker and mounting temporary volume from host is not supported. Falling back to `mount_tmp_dir=False` mode. You can set `mount_tmp_dir` parameter to False to disable mounting and remove the warning
+[2026-03-19T07:10:33.337+0000] {docker.py:429} INFO - hello! - Shrusti Shetty
+[2026-03-19T07:10:33.448+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=hello_goodbye_dag, task_id=hello_task, execution_date=20260319T070350, start_date=20260319T071033, end_date=20260319T071033
+[2026-03-19T07:10:33.473+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-03-19T07:10:33.489+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

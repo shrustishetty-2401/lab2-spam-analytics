@@ -1,0 +1,15 @@
+[2026-04-27T22:38:49.337+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pinecone_medium_articles.preprocess_data manual__2026-04-27T18:00:53.488073+00:00 [queued]>
+[2026-04-27T22:38:49.342+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pinecone_medium_articles.preprocess_data manual__2026-04-27T18:00:53.488073+00:00 [queued]>
+[2026-04-27T22:38:49.343+0000] {taskinstance.py:2170} INFO - Starting attempt 7 of 8
+[2026-04-27T22:38:49.354+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): preprocess_data> on 2026-04-27 18:00:53.488073+00:00
+[2026-04-27T22:38:49.357+0000] {standard_task_runner.py:60} INFO - Started process 431 to run task
+[2026-04-27T22:38:49.359+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'pinecone_medium_articles', 'preprocess_data', 'manual__2026-04-27T18:00:53.488073+00:00', '--job-id', '132', '--raw', '--subdir', 'DAGS_FOLDER/pinecone_medium_dag.py', '--cfg-path', '/tmp/tmp69mh3w_m']
+[2026-04-27T22:38:49.362+0000] {standard_task_runner.py:88} INFO - Job 132: Subtask preprocess_data
+[2026-04-27T22:38:49.399+0000] {task_command.py:423} INFO - Running <TaskInstance: pinecone_medium_articles.preprocess_data manual__2026-04-27T18:00:53.488073+00:00 [running]> on host 1b792d0ef707
+[2026-04-27T22:38:49.600+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='pinecone_medium_articles' AIRFLOW_CTX_TASK_ID='preprocess_data' AIRFLOW_CTX_EXECUTION_DATE='2026-04-27T18:00:53.488073+00:00' AIRFLOW_CTX_TRY_NUMBER='7' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-27T18:00:53.488073+00:00'
+[2026-04-27T22:38:49.601+0000] {pinecone_medium_dag.py:52} INFO - Preprocessing Medium article data...
+[2026-04-27T22:38:49.764+0000] {pinecone_medium_dag.py:63} INFO - Preprocessed data saved. Total records: 2498
+[2026-04-27T22:38:49.767+0000] {python.py:201} INFO - Done. Returned value was: /opt/***/dags/medium_processed.csv
+[2026-04-27T22:38:49.786+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=pinecone_medium_articles, task_id=preprocess_data, execution_date=20260427T180053, start_date=20260427T223849, end_date=20260427T223849
+[2026-04-27T22:38:49.831+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-04-27T22:38:49.851+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

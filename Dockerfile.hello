@@ -1,0 +1,8 @@
+FROM python:3.9
+
+WORKDIR /app
+
+COPY print_hello.py .
+COPY hello_logic.py .
+
+CMD ["python", "print_hello.py"]

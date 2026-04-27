@@ -1,0 +1,72 @@
+[2026-04-21T06:10:54.695+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: imdb_sentiment.train_randomforest manual__2026-04-21T06:10:50.927864+00:00 [queued]>
+[2026-04-21T06:10:54.793+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: imdb_sentiment.train_randomforest manual__2026-04-21T06:10:50.927864+00:00 [queued]>
+[2026-04-21T06:10:54.794+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2026-04-21T06:10:54.805+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): train_randomforest> on 2026-04-21 06:10:50.927864+00:00
+[2026-04-21T06:10:54.810+0000] {standard_task_runner.py:60} INFO - Started process 437 to run task
+[2026-04-21T06:10:54.815+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'imdb_sentiment', 'train_randomforest', 'manual__2026-04-21T06:10:50.927864+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/imdb_sentiment.py', '--cfg-path', '/tmp/tmpois5j7jc']
+[2026-04-21T06:10:54.819+0000] {standard_task_runner.py:88} INFO - Job 3: Subtask train_randomforest
+[2026-04-21T06:10:54.858+0000] {task_command.py:423} INFO - Running <TaskInstance: imdb_sentiment.train_randomforest manual__2026-04-21T06:10:50.927864+00:00 [running]> on host 1342b54a264e
+[2026-04-21T06:10:54.910+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='ml-team' AIRFLOW_CTX_DAG_ID='imdb_sentiment' AIRFLOW_CTX_TASK_ID='train_randomforest' AIRFLOW_CTX_EXECUTION_DATE='2026-04-21T06:10:50.927864+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-21T06:10:50.927864+00:00'
+[2026-04-21T06:10:55.183+0000] {logging_mixin.py:188} WARNING - 2026/04/21 06:10:55 INFO mlflow.tracking.fluent: Experiment with name 'imdb-sentiment-traditional' does not exist. Creating a new experiment.
+[2026-04-21T06:10:55.233+0000] {logging_mixin.py:188} WARNING - 2026/04/21 06:10:55 WARNING mlflow.utils.git_utils: Failed to import Git (the Git executable is probably not on your PATH), so Git SHA is not available. Error: Failed to initialize: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh(<full-path-to-git-executable>)
+
+All git commands will error until this is rectified.
+
+This initial message can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|silent|none|n|0: for no message or exception
+    - warn|w|warning|log|l|1: for a warning message (logging level CRITICAL, displayed by default)
+    - error|e|exception|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+[2026-04-21T06:10:56.905+0000] {logging_mixin.py:188} WARNING - 2026/04/21 06:10:56 INFO mlflow.tracking._tracking_service.client: 🏃 View run tfidf-randomforest at: http://mlflow:5001/#/experiments/1/runs/50412512b1a94489a7a344aa0de47091.
+[2026-04-21T06:10:56.905+0000] {logging_mixin.py:188} WARNING - 2026/04/21 06:10:56 INFO mlflow.tracking._tracking_service.client: 🧪 View experiment at: http://mlflow:5001/#/experiments/1.
+[2026-04-21T06:10:56.915+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/imdb_sentiment.py", line 154, in train_randomforest
+    return _run_candidate(
+  File "/opt/airflow/dags/imdb_sentiment.py", line 114, in _run_candidate
+    mlflow.sklearn.log_model(
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/sklearn/__init__.py", line 413, in log_model
+    return Model.log(
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/models/model.py", line 744, in log
+    mlflow.tracking.fluent.log_artifacts(local_path, mlflow_model.artifact_path, run_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/tracking/fluent.py", line 1170, in log_artifacts
+    MlflowClient().log_artifacts(run_id, local_dir, artifact_path)
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/tracking/client.py", line 1977, in log_artifacts
+    self._tracking_client.log_artifacts(run_id, local_dir, artifact_path)
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/tracking/_tracking_service/client.py", line 874, in log_artifacts
+    self._get_artifact_repo(run_id).log_artifacts(local_dir, artifact_path)
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/store/artifact/local_artifact_repo.py", line 66, in log_artifacts
+    mkdir(artifact_dir)
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/utils/file_utils.py", line 211, in mkdir
+    raise e
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/utils/file_utils.py", line 208, in mkdir
+    os.makedirs(target, exist_ok=True)
+  File "/usr/local/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/usr/local/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/usr/local/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  [Previous line repeated 2 more times]
+  File "/usr/local/lib/python3.8/os.py", line 223, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/mlflow'
+[2026-04-21T06:10:56.923+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=imdb_sentiment, task_id=train_randomforest, execution_date=20260421T061050, start_date=20260421T061054, end_date=20260421T061056
+[2026-04-21T06:10:56.932+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 3 for task train_randomforest ([Errno 13] Permission denied: '/mlflow'; 437)
+[2026-04-21T06:10:56.976+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-04-21T06:10:56.993+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,63 @@
+[2026-04-19T06:03:57.011+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spam_email_etl.load_csv_to_snowflake manual__2026-04-19T06:03:55.437956+00:00 [queued]>
+[2026-04-19T06:03:57.015+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spam_email_etl.load_csv_to_snowflake manual__2026-04-19T06:03:55.437956+00:00 [queued]>
+[2026-04-19T06:03:57.016+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2026-04-19T06:03:57.022+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): load_csv_to_snowflake> on 2026-04-19 06:03:55.437956+00:00
+[2026-04-19T06:03:57.026+0000] {standard_task_runner.py:60} INFO - Started process 158 to run task
+[2026-04-19T06:03:57.028+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'spam_email_etl', 'load_csv_to_snowflake', 'manual__2026-04-19T06:03:55.437956+00:00', '--job-id', '212', '--raw', '--subdir', 'DAGS_FOLDER/spam_email_etl.py', '--cfg-path', '/tmp/tmpayw4jmxb']
+[2026-04-19T06:03:57.030+0000] {standard_task_runner.py:88} INFO - Job 212: Subtask load_csv_to_snowflake
+[2026-04-19T06:03:57.057+0000] {task_command.py:423} INFO - Running <TaskInstance: spam_email_etl.load_csv_to_snowflake manual__2026-04-19T06:03:55.437956+00:00 [running]> on host 4589d7dcd571
+[2026-04-19T06:03:57.101+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='spam_email_etl' AIRFLOW_CTX_TASK_ID='load_csv_to_snowflake' AIRFLOW_CTX_EXECUTION_DATE='2026-04-19T06:03:55.437956+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-19T06:03:55.437956+00:00'
+[2026-04-19T06:03:57.108+0000] {base.py:83} INFO - Using connection ID 'snowflake_default' for task execution.
+[2026-04-19T06:03:57.109+0000] {connection.py:370} INFO - Snowflake Connector for Python Version: 3.6.0, Python Version: 3.8.18, Platform: Linux-6.12.68-linuxkit-aarch64-with-glibc2.34
+[2026-04-19T06:03:57.109+0000] {connection.py:1171} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2026-04-19T06:03:57.388+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/spam_email_etl.py", line 16, in load_csv_to_snowflake
+    conn = hook.get_conn()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 276, in get_conn
+    conn = connector.connect(**conn_config)
+  File "/home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/__init__.py", line 54, in Connect
+    return SnowflakeConnection(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/connection.py", line 413, in __init__
+    self.connect(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/connection.py", line 703, in connect
+    self.__open_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/connection.py", line 1006, in __open_connection
+    self.authenticate_with_retry(self.auth_class)
+  File "/home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/connection.py", line 1277, in authenticate_with_retry
+    self._authenticate(auth_instance)
+  File "/home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/connection.py", line 1305, in _authenticate
+    auth.authenticate(
+  File "/home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/auth/_auth.py", line 250, in authenticate
+    ret = self._rest._post_request(
+  File "/home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/network.py", line 729, in _post_request
+    ret = self.fetch(
+  File "/home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/network.py", line 838, in fetch
+    ret = self._request_exec_wrapper(
+  File "/home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/network.py", line 974, in _request_exec_wrapper
+    raise e
+  File "/home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/network.py", line 879, in _request_exec_wrapper
+    return_object = self._request_exec(
+  File "/home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/network.py", line 1188, in _request_exec
+    raise err
+  File "/home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/network.py", line 1130, in _request_exec
+    raise_failed_request_error(
+  File "/home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/network.py", line 238, in raise_failed_request_error
+    Error.errorhandler_wrapper(
+  File "/home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/errors.py", line 290, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+  File "/home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/errors.py", line 348, in hand_to_other_handler
+    connection.errorhandler(connection, cursor, error_class, error_value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/errors.py", line 221, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.InterfaceError: 250003 (08001): None: 404 Not Found: post https://sfdedu02-eab27764.snowflakecomputing.com:443/session/v1/login-request?request_id=a751548c-ef2f-4f71-b208-a8ab1e4e092b&databaseName=USER_DB_RABBIT&schemaName=PUBLIC&warehouse=RABBIT_QUERY_WH&roleName=TRAINING_ROLE&request_guid=817d43f8-3c0b-453c-ac95-ecb023b600ba
+[2026-04-19T06:03:57.394+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=spam_email_etl, task_id=load_csv_to_snowflake, execution_date=20260419T060355, start_date=20260419T060357, end_date=20260419T060357
+[2026-04-19T06:03:57.405+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 212 for task load_csv_to_snowflake (250003 (08001): None: 404 Not Found: post https://sfdedu02-eab27764.snowflakecomputing.com:443/session/v1/login-request?request_id=a751548c-ef2f-4f71-b208-a8ab1e4e092b&databaseName=USER_DB_RABBIT&schemaName=PUBLIC&warehouse=RABBIT_QUERY_WH&roleName=TRAINING_ROLE&request_guid=817d43f8-3c0b-453c-ac95-ecb023b600ba; 158)
+[2026-04-19T06:03:57.421+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-04-19T06:03:57.441+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

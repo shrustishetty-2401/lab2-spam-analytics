@@ -1,0 +1,28 @@
+[2026-03-04T05:56:25.290+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: country_capital_pipeline.extract manual__2026-03-04T05:50:37.090571+00:00 [queued]>
+[2026-03-04T05:56:25.296+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: country_capital_pipeline.extract manual__2026-03-04T05:50:37.090571+00:00 [queued]>
+[2026-03-04T05:56:25.296+0000] {taskinstance.py:2170} INFO - Starting attempt 5 of 5
+[2026-03-04T05:56:25.303+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): extract> on 2026-03-04 05:50:37.090571+00:00
+[2026-03-04T05:56:25.306+0000] {standard_task_runner.py:60} INFO - Started process 62 to run task
+[2026-03-04T05:56:25.309+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'country_capital_pipeline', 'extract', 'manual__2026-03-04T05:50:37.090571+00:00', '--job-id', '44', '--raw', '--subdir', 'DAGS_FOLDER/country_capital_etl.py', '--cfg-path', '/tmp/tmpieuy1xc2']
+[2026-03-04T05:56:25.310+0000] {standard_task_runner.py:88} INFO - Job 44: Subtask extract
+[2026-03-04T05:56:25.338+0000] {task_command.py:423} INFO - Running <TaskInstance: country_capital_pipeline.extract manual__2026-03-04T05:50:37.090571+00:00 [running]> on host e2cac078df6c
+[2026-03-04T05:56:25.378+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='country_capital_pipeline' AIRFLOW_CTX_TASK_ID='extract' AIRFLOW_CTX_EXECUTION_DATE='2026-03-04T05:50:37.090571+00:00' AIRFLOW_CTX_TRY_NUMBER='5' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-04T05:50:37.090571+00:00'
+[2026-03-04T05:56:25.588+0000] {logging_mixin.py:188} INFO - STATUS: 404
+[2026-03-04T05:56:25.589+0000] {logging_mixin.py:188} INFO - RAW RESPONSE SAMPLE: 404: Not Found
+[2026-03-04T05:56:25.589+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/country_capital_etl.py", line 36, in extract
+    raise Exception("API request failed")
+Exception: API request failed
+[2026-03-04T05:56:25.594+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=country_capital_pipeline, task_id=extract, execution_date=20260304T055037, start_date=20260304T055625, end_date=20260304T055625
+[2026-03-04T05:56:25.601+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 44 for task extract (API request failed; 62)
+[2026-03-04T05:56:25.616+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-03-04T05:56:25.630+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
